@@ -1,0 +1,17 @@
+ID: 2026-02-22-001
+FROM: boss@company.com
+TO: aiworker@company.com
+DATE: 2026-02-22 09:14
+SUBJECT: TASK: Inventory the WORK drive
+
+BODY:
+Please produce a complete inventory of the C:\WORK directory tree.
+Include file counts and sizes by subdirectory.
+
+DELIVERABLES:
+- C:\WORK\ARTIFACTS\inventory.txt
+
+DEFINITION_OF_DONE:
+- inventory.txt exists and includes file counts + sizes by directory.
+
+END:
