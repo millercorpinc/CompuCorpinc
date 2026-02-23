@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Captures / recordings (large binary files)
+work/captures/
+*.mp4
+*.mkv
+*.avi
+
+# DOSBox-X generated files
+*.img
+*.hdd
+dosbox*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Secrets
+.env
+*.secret
