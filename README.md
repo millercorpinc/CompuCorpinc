@@ -27,6 +27,8 @@ agent best-practice scaffolding.
 
 See [docs/runbook.md](docs/runbook.md) for full setup and operation instructions.
 
+See [docs/dev-deployment-plan.md](docs/dev-deployment-plan.md) for the engineering roadmap and deployment plan.
+
 ## Repo layout
 
 ```text
@@ -50,3 +52,16 @@ work/C_WORK/      Host folder mounted as C:\WORK inside DOSBox-X
 ## License
 
 MIT – see [LICENSE](LICENSE).
+
+
+## Local AI (RTX 3070 Ti)
+
+Run the controller with a local CUDA-backed model via Ollama:
+
+```bash
+ollama serve
+ollama pull llama3.1:8b-instruct-q4_K_M
+python3 scripts/local_controller.py
+```
+
+Use `scripts/preflight.sh` before first run to verify host readiness.

@@ -100,3 +100,33 @@ Both run automatically in GitHub Actions on every push/PR.
 ## Troubleshooting
 
 See [troubleshooting.md](troubleshooting.md).
+
+
+## 0.5 Preflight and local AI setup
+
+```bash
+bash scripts/preflight.sh
+```
+
+For local model execution on RTX 3070 Ti:
+
+```bash
+ollama serve
+ollama pull llama3.1:8b-instruct-q4_K_M
+python3 scripts/local_controller.py
+```
+
+## 4.5 Importer MVP (JSONL source)
+
+```bash
+python3 -m importer.cli pull --source <path-to-export.jsonl> --work-root work/C_WORK
+```
+
+Each JSONL row should include: `from`, `to`, `date`, `subject`, `body`, and optional `message_id`.
+
+## 8. Health checks
+
+```bash
+bash ops/monitoring/check_health.sh
+```
+

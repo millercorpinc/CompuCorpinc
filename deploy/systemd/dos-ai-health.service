@@ -1,0 +1,7 @@
+[Unit]
+Description=DOS AI health check
+
+[Service]
+Type=oneshot
+WorkingDirectory=/workspace/CompuCorpinc
+ExecStart=/usr/bin/env bash ops/monitoring/check_health.sh

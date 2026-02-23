@@ -1,0 +1,14 @@
+[Unit]
+Description=DOS AI Local Controller
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/workspace/CompuCorpinc
+ExecStart=/usr/bin/env python3 scripts/local_controller.py
+Restart=always
+RestartSec=10
+Environment=LOCAL_MODEL=llama3.1:8b-instruct-q4_K_M
+
+[Install]
+WantedBy=multi-user.target
