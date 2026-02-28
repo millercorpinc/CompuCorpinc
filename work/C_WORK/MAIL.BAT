@@ -4,6 +4,7 @@ if /I "%1"=="LIST" goto list
 if /I "%1"=="READ" goto read
 if /I "%1"=="REPLY" goto reply
 if /I "%1"=="ARCHIVE" goto archive
+if /I "%1"=="SEND" goto send
 if /I "%1"=="HELP" goto help
 goto help
 
@@ -43,12 +44,20 @@ move MAIL\INBOX\%2 MAIL\ARCHIVE\%2 >nul
 echo Done.
 goto end
 
+:send
+if "%2"=="" goto help
+echo Sending %2 ...
+move MAIL\OUTBOX\%2 MAIL\SENT\%2 >nul
+echo Done: MAIL\SENT\%2
+goto end
+
 :help
 echo.
 echo MAIL commands:
 echo   MAIL LIST
 echo   MAIL READ  filename.MSG
 echo   MAIL REPLY filename.MSG
+echo   MAIL SEND  RE_filename.MSG
 echo   MAIL ARCHIVE filename.MSG
 echo.
 echo Example:
