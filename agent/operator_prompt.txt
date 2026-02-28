@@ -48,6 +48,9 @@ Step 7: Draft a reply
   Then open the reply template in OUTBOX and fill in TO:, DATE:, SUBJECT:,
   and BODY: fields.
 
+Step 7a: Send the reply
+  MAIL SEND RE_<filename>
+
 Step 8: Archive the original
   MAIL ARCHIVE <filename>
 

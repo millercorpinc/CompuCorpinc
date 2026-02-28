@@ -60,13 +60,18 @@ Example:
 
 The file appears in `MAIL LIST` immediately (no restart required).
 
-## 5. Read, reply, archive mail
+## 5. Read, reply, send, and archive mail
 
 ```dos
 MAIL READ   20260222_091400_task-inventory__2026-02-22-001.MSG
 MAIL REPLY  20260222_091400_task-inventory__2026-02-22-001.MSG
+MAIL SEND   RE_20260222_091400_task-inventory__2026-02-22-001.MSG
 MAIL ARCHIVE 20260222_091400_task-inventory__2026-02-22-001.MSG
 ```
+
+`MAIL REPLY` creates a reply template in `MAIL\OUTBOX\`.  
+Edit the template to fill in `TO:`, `DATE:`, `SUBJECT:`, and `BODY:`, then
+run `MAIL SEND` to move the reply from `OUTBOX\` to `SENT\`.
 
 See `MAIL HELP` for the full command reference.
 
@@ -89,13 +94,44 @@ See `ops/stream/obs_notes.md`.
 
 ```bash
 # ShellCheck (requires shellcheck installed)
-shellcheck ops/stream/ffmpeg_desktop_record.sh
+find ops scripts -name "*.sh" -print0 | xargs -0 shellcheck
 
 # Markdown lint (requires markdownlint-cli)
 markdownlint "**/*.md" --ignore node_modules
+
+# Python tests (requires pytest)
+python -m pytest tests/ -v
 ```
 
-Both run automatically in GitHub Actions on every push/PR.
+Both CI jobs run automatically in GitHub Actions on every push/PR.
+
+## 8. Preflight check
+
+Verify all required tools and repo structure before launching:
+
+```bash
+bash scripts/preflight.sh
+```
+
+Exits 0 if everything is in place; prints FAIL lines for anything missing.
+
+## 9. Inject a message from the host (Python CLI)
+
+Create a properly-formatted `.MSG` file and drop it into the inbox:
+
+```bash
+python scripts/import_msg.py \
+  --from boss@company.com \
+  --to aiworker@company.com \
+  --subject "TASK: Do something" \
+  --body "Please do something."
+```
+
+Use `--id <value>` to set an explicit message ID (useful for deduplication).  
+Use `--inbox <dir>` to target a custom inbox directory.
+
+The script is idempotent: running it twice with the same `--id` will not
+create a duplicate file.
 
 ## Troubleshooting
 

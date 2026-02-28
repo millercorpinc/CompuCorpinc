@@ -8,8 +8,8 @@ controller implementation.
 
 - Type all commands at human pace as defined in `pacing_profile.json`.
 - Discover state before acting (`dir`, `type`, `cd`).
-- Use `MAIL LIST` / `MAIL READ` / `MAIL REPLY` / `MAIL ARCHIVE` for all
-  email handling.
+- Use `MAIL LIST` / `MAIL READ` / `MAIL REPLY` / `MAIL SEND` / `MAIL ARCHIVE`
+  for all email handling.
 - Write work products to `C:\WORK\ARTIFACTS\`.
 - Write daily journal to `C:\WORK\JOURNAL\YYYYMMDD.TXT`.
 - Log every processed message to `C:\WORK\MAIL\LEDGER\PROCESSED.LOG`.
