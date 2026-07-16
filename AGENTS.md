@@ -2,34 +2,57 @@
 
 ## Mission
 
-Maintain this repository as the canonical, auditable operating system for **[COMPANY_NAME]**, a founder-led technology advisory, implementation, automation, security, and managed-governance company.
+Maintain this repository as the canonical, auditable operating system for **[COMPANY_NAME]**, a principal-led technology advisory, implementation, automation, security, and managed-governance company.
 
 The company name is provisional. Never replace `[COMPANY_NAME]` globally until a formal decision record approves the legal and public names.
+
+Historical named-person assignments are superseded. Never infer current participation, ownership, title, authority, compensation, availability, or employment from prior Startup discussions.
 
 ## Mandatory reading order
 
 Before substantive work:
 
 1. `docs/START-HERE.md`
-2. `knowledge/MASTER-CONTEXT.md`
-3. `knowledge/DECISION-STATUS.md`
-4. The most relevant canonical documents under `docs/`
-5. Relevant decision records under `docs/decisions/`
-6. Relevant templates and skills
+2. `knowledge/STARTUP-THREAD-RECOVERY.md`
+3. `docs/business/00-BUSINESS-PLAN.md`
+4. `knowledge/DECISION-STATUS.md`
+5. `knowledge/OPEN-QUESTIONS.md`
+6. The most relevant canonical documents under `docs/`
+7. Relevant decision records under `docs/decisions/`
+8. Relevant templates and skills
+
+The synthesized `knowledge/MASTER-CONTEXT.md` and `knowledge/PROJECT-CONTEXT-EXPANDED.md` remain useful historical context, but the recovery register and detailed canonical documents take precedence when they conflict.
 
 For a narrowly scoped task, do not read every file. Follow links from `docs/START-HERE.md` and load only the necessary context.
 
 ## Source boundary
 
-The initial knowledge base is reconstructed only from the Startup project discussions available when this repository was created. It is a synthesis, not a verbatim transcript.
+The initial knowledge base is reconstructed from Startup project discussions. It is a synthesis, not a verbatim transcript.
 
 When adding new information:
 
-- Identify whether it came from a founder decision, research, customer evidence, professional advice, or an assumption.
-- Add provenance in the document's `Source and status` section.
+- Identify whether it came from an approved decision, recovered historical discussion, research, customer evidence, professional advice, or an assumption.
+- Add provenance in the document's `Source and status` section where appropriate.
 - Never invent prior agreement.
 - Never describe an open decision as settled.
 - Preserve competing options until a decision is approved.
+- Prefer the most complete later model over an earlier incomplete estimate, and mark the earlier model superseded.
+
+## Personnel and role rule
+
+Use role functions, not historical people.
+
+Required functions include:
+
+- Commercial leadership and relationships
+- Technology, security, and strategy leadership
+- Delivery and service operations
+- Finance, legal, risk, and administration
+- Partner and ecosystem management
+
+One person may perform multiple functions, but actual assignments require a current decision or agreement.
+
+Do not create biographies, ownership tables, org charts, title assignments, compensation, or decision rights for historical individuals.
 
 ## Working method
 
@@ -63,10 +86,14 @@ Unless a decision record explicitly changes them:
 - Projects establish standards; recurring governance creates durable revenue.
 - Security, documentation, maintainability, and operational ownership are built into delivery.
 - Partner, distributor, referral, and independent-attestation relationships are part of the operating model.
+- Pax8 is the presumptive launch distributor pathway, subject to current diligence and contracting.
 - Licensing margin is supplemental; professional services and recurring accountability are the main value.
 - Formal audits, legal advice, tax advice, and regulated attestations must be performed by qualified independent professionals where required.
 - The company should productize repeatable work without pretending all clients are identical.
 - Senior judgment is a core product and must not be buried beneath commodity support.
+- Foundation Core uses a 26–32-hour working model and $6,000–$9,000 range.
+- Full Foundation uses a 46-hour controlled-environment working model and $12,000–$18,000 range.
+- The earlier $3,500–$7,500 Full Foundation estimate is superseded historical context.
 
 ## Documentation rules
 
@@ -77,7 +104,8 @@ Unless a decision record explicitly changes them:
 - Include scope, exclusions, assumptions, risks, owner, status, and next review date where relevant.
 - Store approved decisions in `docs/decisions/`.
 - Store unresolved questions in `knowledge/OPEN-QUESTIONS.md`.
-- Store historical material under `knowledge/history/`.
+- Store recovered discrepancies in `knowledge/STARTUP-THREAD-RECOVERY.md`.
+- Store historical material under `knowledge/history/` when separated from active guidance.
 - Do not delete historical concepts merely because they are no longer preferred; mark them superseded.
 
 ## Architecture rules
@@ -87,7 +115,7 @@ Model the company through connected layers:
 1. Strategy and value proposition
 2. Capabilities and value streams
 3. Services and commercial packages
-4. People, roles, partners, and governance
+4. Roles, partners, and governance
 5. Processes and delivery lifecycle
 6. Information and knowledge
 7. Applications and integrations
