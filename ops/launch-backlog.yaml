@@ -1,0 +1,259 @@
+version: 1
+source: Startup project reconstruction
+status_values:
+  - proposed
+  - approved
+  - in_progress
+  - blocked
+  - complete
+  - deferred
+
+workstreams:
+  - id: founders
+    name: Founder governance
+    tasks:
+      - id: FND-001
+        title: Confirm founder participants and expected contributions
+        status: proposed
+        owner_role: Founders
+        dependencies: []
+        evidence: Founder term sheet draft
+        external_review: false
+      - id: FND-002
+        title: Define functional roles and decision rights
+        status: proposed
+        owner_role: Founders
+        dependencies: [FND-001]
+        evidence: Approved accountability and decision-rights matrix
+        external_review: false
+      - id: FND-003
+        title: Agree ownership, vesting, capital, and compensation principles
+        status: proposed
+        owner_role: Founders
+        dependencies: [FND-001, FND-002]
+        evidence: Approved business terms for counsel
+        external_review: true
+      - id: FND-004
+        title: Execute counsel-reviewed founder agreement
+        status: proposed
+        owner_role: Founders
+        dependencies: [FND-003]
+        evidence: Executed agreement stored in approved secure system
+        external_review: true
+
+  - id: brand
+    name: Name and brand
+    tasks:
+      - id: BRD-001
+        title: Develop and shortlist company names
+        status: in_progress
+        owner_role: Founders
+        dependencies: []
+        evidence: Shortlist with rationale
+        external_review: false
+      - id: BRD-002
+        title: Perform name, domain, and trademark screening
+        status: proposed
+        owner_role: Legal / Brand
+        dependencies: [BRD-001]
+        evidence: Screening results and risk review
+        external_review: true
+      - id: BRD-003
+        title: Approve legal and public names
+        status: proposed
+        owner_role: Founders
+        dependencies: [BRD-002]
+        evidence: Approved decision record
+        external_review: false
+
+  - id: legal
+    name: Legal, tax, finance, and insurance
+    tasks:
+      - id: LEG-001
+        title: Obtain entity and tax structure advice
+        status: proposed
+        owner_role: Founders
+        dependencies: [FND-003]
+        evidence: Written professional recommendation
+        external_review: true
+      - id: LEG-002
+        title: Form entity and complete required registrations
+        status: proposed
+        owner_role: Legal
+        dependencies: [BRD-003, LEG-001]
+        evidence: Formation and registration records
+        external_review: true
+      - id: FIN-001
+        title: Establish banking, accounting, and expense controls
+        status: proposed
+        owner_role: Finance
+        dependencies: [LEG-002]
+        evidence: Operational accounts and documented controls
+        external_review: true
+      - id: RSK-001
+        title: Bind initial business insurance
+        status: proposed
+        owner_role: Operations
+        dependencies: [LEG-002]
+        evidence: Active policies and coverage review
+        external_review: true
+      - id: LEG-003
+        title: Prepare contract framework
+        status: proposed
+        owner_role: Legal / Operations
+        dependencies: [LEG-002]
+        evidence: Counsel-reviewed MSA, SOW, and supporting schedules
+        external_review: true
+
+  - id: service
+    name: Service and commercial design
+    tasks:
+      - id: SRV-001
+        title: Select the initial ideal customer and entry offer
+        status: proposed
+        owner_role: Sales / Strategy
+        dependencies: [FND-002]
+        evidence: Approved decision record
+        external_review: false
+      - id: SRV-002
+        title: Productize the initial service
+        status: proposed
+        owner_role: Strategy / Operations
+        dependencies: [SRV-001]
+        evidence: Complete service brief and delivery checklist
+        external_review: false
+      - id: SRV-003
+        title: Build cost, capacity, price, and margin model
+        status: proposed
+        owner_role: Finance / Operations
+        dependencies: [SRV-002]
+        evidence: Reviewed commercial model
+        external_review: true
+      - id: SRV-004
+        title: Define recurring governance and support boundaries
+        status: proposed
+        owner_role: Strategy / Operations
+        dependencies: [SRV-002, SRV-003]
+        evidence: Approved service schedule and escalation model
+        external_review: true
+
+  - id: partners
+    name: Partner and distribution ecosystem
+    tasks:
+      - id: PRT-001
+        title: Research current Microsoft partner pathways
+        status: proposed
+        owner_role: Technology / Strategy
+        dependencies: [LEG-002]
+        evidence: Requirements and recommended sequence
+        external_review: false
+      - id: PRT-002
+        title: Evaluate distributor and CSP candidates
+        status: proposed
+        owner_role: Technology / Finance
+        dependencies: [LEG-002, SRV-001]
+        evidence: Weighted comparison and proposed decision
+        external_review: false
+      - id: PRT-003
+        title: Define specialist partner qualification process
+        status: proposed
+        owner_role: Operations / Security
+        dependencies: [LEG-003]
+        evidence: Partner policy and profile template
+        external_review: true
+      - id: PRT-004
+        title: Qualify initial legal, tax, insurance, audit, and delivery partners
+        status: proposed
+        owner_role: Founders
+        dependencies: [PRT-003]
+        evidence: Approved partner profiles
+        external_review: false
+
+  - id: internal
+    name: Internal technology and security
+    tasks:
+      - id: INT-001
+        title: Define internal operating-stack requirements
+        status: proposed
+        owner_role: Technology / Operations
+        dependencies: [FND-002]
+        evidence: Approved requirements and architecture
+        external_review: false
+      - id: INT-002
+        title: Establish company identity, endpoints, collaboration, and secret management
+        status: proposed
+        owner_role: Technology / Security
+        dependencies: [LEG-002, INT-001]
+        evidence: Tested secure baseline and runbooks
+        external_review: false
+      - id: INT-003
+        title: Select and configure CRM, project/service management, documentation, and finance systems
+        status: proposed
+        owner_role: Technology / Operations / Finance
+        dependencies: [INT-001, FIN-001]
+        evidence: Operational systems and ownership documentation
+        external_review: false
+      - id: INT-004
+        title: Approve internal security and incident-response baseline
+        status: proposed
+        owner_role: Technology / Security
+        dependencies: [INT-002, INT-003]
+        evidence: Approved policies, test evidence, and decision record
+        external_review: true
+
+  - id: market
+    name: Sales and market validation
+    tasks:
+      - id: MKT-001
+        title: Conduct target-buyer interviews
+        status: proposed
+        owner_role: Sales / Strategy
+        dependencies: [SRV-001]
+        evidence: Interview notes and synthesis
+        external_review: false
+      - id: MKT-002
+        title: Prepare one-page offer, website copy, discovery, and proposal materials
+        status: proposed
+        owner_role: Sales / Strategy
+        dependencies: [SRV-002, SRV-003, BRD-003]
+        evidence: Reviewed sales kit
+        external_review: true
+      - id: MKT-003
+        title: Build warm-network prospect and partner list
+        status: proposed
+        owner_role: Sales
+        dependencies: [SRV-001]
+        evidence: Prioritized outreach list
+        external_review: false
+
+  - id: delivery
+    name: Delivery and pilots
+    tasks:
+      - id: DLV-001
+        title: Create delivery, security, documentation, testing, and handoff checklists
+        status: proposed
+        owner_role: Operations / Technology
+        dependencies: [SRV-002, INT-004]
+        evidence: Approved delivery playbook
+        external_review: false
+      - id: DLV-002
+        title: Define customer access, data handling, escalation, and offboarding
+        status: proposed
+        owner_role: Security / Operations / Legal
+        dependencies: [LEG-003, INT-004]
+        evidence: Approved procedures and contract alignment
+        external_review: true
+      - id: DLV-003
+        title: Acquire and contract the first paid pilot
+        status: proposed
+        owner_role: Sales
+        dependencies: [MKT-002, MKT-003, DLV-001, DLV-002]
+        evidence: Signed pilot SOW
+        external_review: false
+      - id: DLV-004
+        title: Deliver pilot and complete evidence-based closeout
+        status: proposed
+        owner_role: Operations / Technology
+        dependencies: [DLV-003]
+        evidence: Acceptance, closeout, lessons, and reusable assets
+        external_review: false

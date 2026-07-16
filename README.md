@@ -1,52 +1,42 @@
-# dos-ai-operator
+# Company Operating Repository
 
-DOS operated entirely by a realistic AI bot.
+This repository is the canonical operating and design system for a founder-led technology advisory, implementation, and managed-services company.
 
-A **DOSBox-X workstation** driven by an AI operator at human typing speed, with a
-file-backed email inbox, live-capture support (OBS / ffmpeg), and full GitHub
-agent best-practice scaffolding.
+The legal name and public brand are intentionally represented as **[COMPANY_NAME]** until the founders approve a final name and record it in a decision record.
 
-## Quick start
+## What this repository contains
 
-1. Install [DOSBox-X](https://dosbox-x.com/).
-2. Launch the workstation:
+- The reconstructed business model developed in the Startup project
+- Company, service, delivery, partnership, and technology architecture
+- A dependency-aware business launch program
+- Templates for decisions, services, projects, partners, procedures, and proposals
+- Repository-scoped Codex skills for business design and documentation governance
+- Scripts to install the upstream Superpowers skills into the repository
+- GitHub issue and pull-request templates
+- Validation scripts to keep the knowledge base coherent
 
-   ```bash
-   dosbox-x -conf ops/dosbox/dosbox-x.conf
-   ```
+## Start here
 
-3. In the DOS prompt:
+1. Read [`AGENTS.md`](AGENTS.md).
+2. Read [`docs/START-HERE.md`](docs/START-HERE.md).
+3. Review [`knowledge/MASTER-CONTEXT.md`](knowledge/MASTER-CONTEXT.md).
+4. Run the repository verification script.
+5. Install Superpowers using the appropriate setup script.
+6. Open [`CODEX_BOOTSTRAP.md`](CODEX_BOOTSTRAP.md) and give its instructions to Codex.
 
-   ```dos
-   cd \WORK
-   MAIL LIST
-   ```
+## Core business thesis
 
-4. Drop a `.MSG` file into `work/C_WORK/MAIL/INBOX/` on the host.
-5. Back in DOS: `MAIL LIST` – it appears immediately.
+**Advisory at the front, standardized implementation in the middle, and recurring governance at the back.**
 
-See [docs/runbook.md](docs/runbook.md) for full setup and operation instructions.
+The company helps organizations design, secure, integrate, automate, and operate their technology environments. Microsoft is the principal platform specialization, but the business is vendor-flexible across customer business systems and uses partners and distributors as structural parts of delivery.
 
-## Repo layout
+## Repository status
 
-```text
-.github/          GitHub workflows, templates, agent instructions
-agent/            AI operator prompt, pacing profile, behaviour contract
-docs/             Architecture, runbook, inbox schema, Outlook import plan
-ops/dosbox/       DOSBox-X config + autoexec
-ops/stream/       ffmpeg recording script + OBS notes
-work/C_WORK/      Host folder mounted as C:\WORK inside DOSBox-X
-  MAIL/INBOX      Drop .MSG files here to deliver mail to the AI
-  MAIL/OUTBOX     AI-composed replies waiting for pickup
-  MAIL/SENT       Sent mail archive
-  MAIL/ARCHIVE    Processed-inbox archive
-  MAIL/FAILED     Undeliverable mail
-  MAIL/LEDGER     Processing log
-  JOURNAL/        AI daily journal files
-  ARTIFACTS/      Work products produced by the AI
-  NOTES/          Scratch notes
-```
+This is a Version 0.1 foundation. It distinguishes:
 
-## License
+- **Confirmed direction** — repeatedly developed and treated as foundational
+- **Working hypothesis** — sufficiently developed to guide planning, but not formally approved
+- **Open decision** — requires founder approval or professional advice
+- **Historical concept** — retained for context but not canonical
 
-MIT – see [LICENSE](LICENSE).
+Do not silently convert hypotheses into decisions.

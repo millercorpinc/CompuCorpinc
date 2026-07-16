@@ -1,0 +1,11 @@
+{
+  "canonical_start": "docs/START-HERE.md",
+  "master_context": "knowledge/MASTER-CONTEXT.md",
+  "decision_status": "knowledge/DECISION-STATUS.md",
+  "open_questions": "knowledge/OPEN-QUESTIONS.md",
+  "launch_program": "docs/launch/00-LAUNCH-PROGRAM.md",
+  "architecture_overview": "docs/architecture/00-ARCHITECTURE-OVERVIEW.md",
+  "service_architecture": "docs/business/03-SERVICE-ARCHITECTURE.md",
+  "partner_model": "docs/business/05-PARTNERSHIPS-AND-DISTRIBUTION.md",
+  "backlog": "ops/launch-backlog.yaml"
+}

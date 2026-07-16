@@ -1,8 +1,0 @@
-@echo off
-mount c ..\..\work\C_WORK
-c:
-cd \WORK
-echo.
-echo AI DOS Workstation Ready
-echo Type MAIL to check inbox
-echo.

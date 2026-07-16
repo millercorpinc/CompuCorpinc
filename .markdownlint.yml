@@ -1,8 +1,0 @@
-# markdownlint configuration
-default: true
-
-# Line length – disabled; tables and long URLs make this impractical.
-MD013: false
-
-# Table column style – disabled; minor alignment differences are acceptable.
-MD060: false

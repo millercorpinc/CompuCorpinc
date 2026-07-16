@@ -1,34 +1,45 @@
-# OS
+# OS and editors
 .DS_Store
 Thumbs.db
-
-# Editor
 .vscode/
 .idea/
 *.swp
-*.swo
-
-# Captures / recordings (large binary files)
-work/captures/
-*.mp4
-*.mkv
-*.avi
-
-# DOSBox-X generated files
-*.img
-*.hdd
-dosbox*.log
 
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .venv/
 venv/
+.pytest_cache/
 
 # Node
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
-# Secrets
+# Environment and secrets
 .env
-*.secret
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+credentials/
+
+# Generated or local
+dist/
+build/
+tmp/
+.local/
+.vendor/superpowers/
+.agents/skills/.superpowers-installed.txt
+.agents/skills/.superpowers-version
+verification-report.json
+
+# Customer data
+customer-data/
+exports/
+production-config/
