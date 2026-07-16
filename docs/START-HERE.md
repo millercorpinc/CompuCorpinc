@@ -13,22 +13,25 @@ Historical named-person assignments are superseded. Use role functions only unti
 1. `AGENTS.md`
 2. `knowledge/STARTUP-THREAD-RECOVERY.md`
 3. `docs/business/00-BUSINESS-PLAN.md`
-4. `knowledge/PROJECT-CONTEXT-EXPANDED.md`
-5. `knowledge/MASTER-CONTEXT.md`
+4. `docs/business/02-MARKET-AND-GO-TO-MARKET.md`
+5. `docs/business/04-ROLE-AND-ACCOUNTABILITY-ARCHITECTURE.md`
 6. `knowledge/DECISION-STATUS.md`
 7. `knowledge/OPEN-QUESTIONS.md`
 8. `docs/business/01-BUSINESS-DEFINITION.md`
 9. `docs/business/03-SERVICE-ARCHITECTURE.md`
-10. `docs/business/04-ROLE-AND-ACCOUNTABILITY-ARCHITECTURE.md`
-11. `docs/business/05-PARTNERSHIPS-AND-DISTRIBUTION.md`
+10. `docs/business/05-PARTNERSHIPS-AND-DISTRIBUTION.md`
+11. `docs/business/08-FINANCIAL-PLAN.md`
 12. `docs/business/09-OPERATING-MODEL.md`
 13. `docs/business/10-PRICING-AND-UNIT-ECONOMICS.md`
 14. `docs/services/01-SECURE-WORKPLACE-FOUNDATION.md`
 15. `docs/architecture/00-ARCHITECTURE-OVERVIEW.md`
 16. `docs/architecture/01-SOLUTION-AND-DELIVERY-ARCHITECTURE.md`
 17. `docs/architecture/02-KNOWLEDGE-AND-AUTOMATION-ARCHITECTURE.md`
-18. `docs/operations/01-90-DAY-LAUNCH-PLAN.md`
-19. `ops/launch-backlog.yaml`
+18. `docs/solutions/00-SOLUTION-CATALOG.md`
+19. `knowledge/PROJECT-CONTEXT-EXPANDED.md`
+20. `knowledge/MASTER-CONTEXT.md`
+21. `docs/operations/01-90-DAY-LAUNCH-PLAN.md`
+22. `ops/launch-backlog.yaml`
 
 ## Precedence and reconciliation
 
@@ -57,11 +60,12 @@ Treat these as presumptive operating design:
 - Role-based functions rather than historical named-person assignments
 - Microsoft, indirect-CSP/distributor, specialist, referral, and independent-professional partner ecosystem
 - Pax8 as the presumptive launch distributor pathway, pending current diligence and contracting
-- Founder- or principal-led warm-market go-to-market motion
+- Principal-led warm-market go-to-market motion
 - Repository-first structured knowledge system
 - Foundation Core working model: 26–32 hours and $6,000–$9,000
 - Full Foundation working model: 46-hour controlled-environment baseline and $12,000–$18,000
 - The older $3,500–$7,500 Full Foundation estimate is superseded historical context
+- Top 200 solution catalog built from specific business situations, not generic technology labels
 
 ## Genuine unresolved decisions
 
@@ -84,10 +88,14 @@ Treat these as presumptive operating design:
 |---|---|
 | Recovered thread details and contradictions | `knowledge/STARTUP-THREAD-RECOVERY.md` |
 | Formal business plan | `docs/business/00-BUSINESS-PLAN.md` |
+| Market and go-to-market plan | `docs/business/02-MARKET-AND-GO-TO-MARKET.md` |
+| Roles and accountability | `docs/business/04-ROLE-AND-ACCOUNTABILITY-ARCHITECTURE.md` |
+| Financial plan | `docs/business/08-FINANCIAL-PLAN.md` |
 | Expanded project context | `knowledge/PROJECT-CONTEXT-EXPANDED.md` |
 | Business model | `docs/business/` |
 | Service playbooks | `docs/services/` |
 | Company and solution architecture | `docs/architecture/` |
+| Solution opportunity catalog | `docs/solutions/` |
 | Operating playbooks | `docs/operations/` |
 | Launch program | `docs/launch/` |
 | Decisions | `docs/decisions/` |
@@ -119,5 +127,6 @@ Do not infer that a task is active merely because a document exists.
 7. Complete Pax8 diligence and select the current Microsoft partner pathway.
 8. Qualify critical specialist and independent partners.
 9. Complete sales and delivery readiness.
-10. Acquire and deliver the first paid pilot.
-11. Update the service model from actual effort, outcome, support, and margin evidence.
+10. Score the initial 20 solution opportunities and select the first five detailed patterns.
+11. Acquire and deliver the first paid pilot.
+12. Update the service model from actual effort, outcome, support, and margin evidence.
