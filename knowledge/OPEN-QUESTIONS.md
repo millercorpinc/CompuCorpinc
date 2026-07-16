@@ -1,63 +1,70 @@
 # Open Questions
 
-## Founders and governance
+These are the genuine unresolved decisions. Do not re-list established business architecture as if it were unknown.
+
+## Name and legal identity
+
+- What is the final legal and public company name?
+- Are the name, domain, and marks available and acceptable?
+
+## Founder governance
 
 - Who are the legal founders and owners?
 - What equity, vesting, capital contribution, voting, and compensation structure applies?
-- What decisions require unanimity, majority, or role-level authority?
-- What happens if a founder leaves, underperforms, becomes disabled, or wants to sell?
+- What decisions require unanimity, majority, or function-level authority?
+- What happens upon departure, disability, death, deadlock, or sale?
 - Who owns pre-existing and newly created intellectual property?
-- Which founder can bind the company contractually?
+- Who can bind the company contractually?
 
-## Legal, tax, and risk
+## Legal, tax, finance, and risk
 
-- Which entity and tax structure best fits the founders and expected revenue?
-- Which states require registration?
-- What insurance is required: general liability, E&O, cyber, workers compensation, crime, and others?
-- Which contract documents are required?
-- What customer data will be handled, and which regulations may apply?
-- How will subcontractors and partners be governed?
+- Which entity and tax structure fits the founders and forecast?
+- Which registrations are required?
+- What insurance limits and coverages are appropriate?
+- What contract terms and liability positions are acceptable?
+- What startup capital and cash reserve are required?
+- What financial controls and reporting cadence apply?
 
-## Market and offer
+## Launch sequencing
 
-- Which customer profile has the highest urgency and willingness to pay?
-- What is the first offer?
-- Should the company launch with a vertical focus?
-- What business outcomes make the offer compelling?
-- What scope is explicitly excluded?
-- What evidence will prove value?
+- Does the company lead with a paid assessment, the Secure Workplace Foundation, or a paired sequence?
+- Is an initial vertical focus useful, or should launch remain horizontal within the target customer range?
+- What is the minimum evidence required before publishing pricing?
 
-## Delivery and support
+## Managed-service boundary
 
-- How much end-user support will be offered?
-- What support hours, response targets, and escalation rules apply?
-- Which work is standardized and which is custom?
-- What is required before taking over an environment?
-- What security baseline is non-negotiable?
-- How are exceptions approved?
+- Which support requests are included?
+- What hours and response targets apply?
+- Is end-user help desk included, optional, or referred?
+- What prerequisites are required before taking operational responsibility?
+- What is excluded or separately project-priced?
 
 ## Commercial model
 
-- Fixed fee, subscription, per-user, retainer, time-and-materials, or hybrid?
+- What are the approved launch prices?
+- What gross-margin targets apply?
 - Which costs are pass-through?
-- What gross-margin targets are required?
-- How are license price changes handled?
-- What minimum monthly commitment applies?
-- How are project change orders handled?
+- What deposits, payment terms, and suspension rules apply?
+- How are license-price changes handled?
+- What discount and change-order authority applies?
 
-## Partnerships
+## Partnerships and distribution
 
-- Which Microsoft partner path is appropriate?
-- Which distributor best supports the launch market?
-- Which partner capabilities must be internal versus referred?
-- What qualification and review process applies to partners?
-- How are referral fees, subcontracting, customer ownership, confidentiality, and liability handled?
+- Which Microsoft partner pathway is appropriate under current program rules?
+- Which distributor/indirect CSP best supports the company?
+- Which capabilities must be internal, subcontracted, or referred?
+- Which initial partners are qualified?
+- How are customer ownership, referral economics, confidentiality, liability, and independence handled?
 
-## Operations and architecture
+## Internal operating stack
 
-- Which CRM, PSA, documentation, accounting, quoting, and security systems are necessary at launch?
-- What can be delayed?
-- What is the authoritative customer record?
-- How will customer environments and data be separated?
-- Which metrics indicate service quality, risk, and profitability?
-- How will knowledge be captured without excessive overhead?
+- Which specific products will support CRM, quoting, project/service management, documentation, accounting, security, secrets, and automation?
+- Which system is authoritative for each information object?
+- What can be delayed until after the first pilots?
+
+## Execution
+
+- Who is the first pilot customer?
+- What launch date and capacity are realistic?
+- What founder time commitment is available?
+- Which metrics define successful first-quarter execution?
