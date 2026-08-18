@@ -21,8 +21,8 @@ The core company design is substantially established. This repository exists to 
 11. `docs/launch/02-FOUNDER-EQUITY-AND-VESTING.md`
 12. `docs/launch/03A-SALES-EQUITY-TERMS.md`
 13. `docs/architecture/00-ARCHITECTURE-OVERVIEW.md`
-12. `docs/operations/01-90-DAY-LAUNCH-PLAN.md`
-13. `ops/launch-backlog.yaml`
+14. `docs/operations/01-90-DAY-LAUNCH-PLAN.md`
+15. `ops/launch-backlog.yaml`
 
 ## Established business baseline
 
