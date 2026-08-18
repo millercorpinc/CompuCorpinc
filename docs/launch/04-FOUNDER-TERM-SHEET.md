@@ -31,7 +31,8 @@ This term sheet documents the working founder structure for the company. It is d
 
 - Sales pool: 20%
 - Execution pool: 20%
-- Reserved future-use buffer: 9%
+- Reserved future-use buffer: 9% (not an advisor pool)
+- Dedicated advisor pool: none
 - Founder-controlled equity: 51%
 
 ### Role expectations
