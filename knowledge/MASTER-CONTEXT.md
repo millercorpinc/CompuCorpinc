@@ -2,7 +2,7 @@
 
 ## Source and status
 
-- **Source boundary:** Startup project discussions available through July 15, 2026
+- **Source boundary:** Startup project discussions and clearly related cross-thread refinements available through August 18, 2026
 - **Form:** synthesized reconstruction, not verbatim transcript
 - **Purpose:** give founders and agents a complete initial context without treating every historical idea as approved
 - **Canonical status:** this file is the high-level context; detailed canonical rules live under `docs/`
@@ -44,6 +44,8 @@ These phrases are working language, not approved taglines.
 ## 3. Ideal customer
 
 The initial core customer is a business with approximately 10–150 employees, with a broader practical range of roughly 1–200 users.
+
+A second deliberate entry segment is the 1–9-user owner/operator or early-stage company that wants to start quickly on a legitimate, secure, compliant foundation. This segment should receive outcome-oriented language and the scoped Foundation Core offer rather than an enterprise-sized implementation.
 
 Typical conditions:
 
@@ -98,7 +100,13 @@ The clearest initial package was a secure Microsoft 365 foundation, including:
 - Collaboration foundations
 - Documentation and handoff
 
-A historical working price of $3,500–$7,500 was discussed. It is a hypothesis requiring validation.
+The earlier $3,500–$7,500 working range is superseded historical context. The current working tiers are:
+
+- Foundation Core: 1–9 users, approximately 26–32 execution hours, $6,000–$9,000
+- Foundation (Full): 10–25 users, approximately 46 execution hours, $12,000–$18,000
+- Foundation (Complex): 25+ users, regulated or materially complex environments, 60+ hours, $18,000+
+
+These remain internal planning ranges requiring validation through real delivery evidence and a completed cost model.
 
 ### Standard cloud workplace
 
@@ -249,7 +257,21 @@ Titles considered included CTO and a broader CTIO. No title is final.
 - Quality and consistency
 - Repeatable delivery
 
-Functional roles are more developed than ownership, compensation, voting, and legal governance. Those remain open.
+Functional roles are more developed than final legal titles and authority.
+
+### Initial cohort and working equity model
+
+The refined initial-team concept is one strong sales lead and multiple execution contributors, with a likely total cohort of three to five people. The opportunity is intended for the first founding contributors, not as a standing equity program for every future hire.
+
+The developed working capitalization model is:
+
+- controlling founder: 51% minimum voting/control floor;
+- sales pool: 20% total;
+- execution pool: 20% total;
+- future-use reserve: 9%;
+- dedicated advisor pool: none.
+
+The 20% sales and execution figures are pool ceilings, not automatic individual grants. Equity is earned through paid qualifying deals. Sales attribution follows paid revenue and approved commercial ownership; execution attribution follows project profit and the value of actual deliverables. Individual caps, exact per-deal vesting rates, instruments, tax treatment, and legal terms remain to be approved with counsel.
 
 ## 8. Partner and distribution model
 
