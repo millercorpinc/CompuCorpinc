@@ -10,7 +10,11 @@ These are the genuine unresolved decisions. Do not re-list established business 
 ## Founder governance
 
 - Who are the legal founders and owners?
-- What equity, vesting, capital contribution, voting, and compensation structure applies?
+- Which people are in the initial three-to-five-person cohort, and which are legal founders versus early contributors?
+- Within the working 51% founder / 20% sales / 20% execution / 9% future-use model, what exact individual grants and caps apply?
+- What per-deal vesting rate, deal-count horizon, and hybrid operational component (if any) apply to sales and execution?
+- How do sales commission, execution compensation, and earned equity interact without double-counting value?
+- Which equity or profit-interest instruments, tax treatment, voting rights, and repurchase terms implement the model?
 - What decisions require unanimity, majority, or function-level authority?
 - What happens upon departure, disability, death, deadlock, or sale?
 - Who owns pre-existing and newly created intellectual property?
@@ -32,12 +36,6 @@ These are the genuine unresolved decisions. Do not re-list established business 
 - What is the minimum evidence required before publishing pricing?
 - Which foundation scope tier should be defaulted for new customer types: Foundation Core, Full Foundation, or a custom sequenced approach?
 
-## Commercial model and pricing
-
-- What is the approved launch pricing for Foundation Core, Full Foundation, and Complex Foundation engagements?
-- What conditions require change orders, add-ons, or re-pricing for legacy tenant takeover, migration, or backup complexity?
-- What minimum evidence is required before quoting greenfield tenant work at the full fixed-fee standard?
-
 ## Managed-service boundary
 
 - Which support requests are included?
@@ -46,9 +44,11 @@ These are the genuine unresolved decisions. Do not re-list established business 
 - What prerequisites are required before taking operational responsibility?
 - What is excluded or separately project-priced?
 
-## Commercial model
+## Commercial model and pricing
 
-- What are the approved launch prices?
+- What are the approved launch prices for Foundation Core, Full Foundation, and Complex Foundation?
+- What conditions require change orders, add-ons, or re-pricing for legacy tenant takeover, migration, backup, SaaS sprawl, or regulatory complexity?
+- What minimum evidence is required before quoting greenfield tenant work at the full fixed-fee standard?
 - What gross-margin targets apply?
 - Which costs are pass-through?
 - What deposits, payment terms, and suspension rules apply?
