@@ -6,7 +6,7 @@ The repository is not a blank business-design exercise. Established Startup-proj
 
 | Topic | Status | Current direction | Required action |
 |---|---|---|---|
-| Company name | Open decision | Use `[COMPANY_NAME]`; friend/founders developing final name | Approve after availability and legal review |
+| Company name | Open decision | Use `[COMPANY_NAME]` canonically; CompuCorp is a working internal portal/brand label, not an approved legal or public name | Approve after availability and legal review |
 | Business category | Established baseline | Advisory, implementation, security, automation, and managed governance | Formalize in an approved decision record |
 | Operating formula | Established baseline | Advisory first, standardized implementation second, recurring governance third | Use as the default design principle |
 | Primary platform | Established baseline | Microsoft specialization with vendor-flexible integration | Formalize; do not reopen as a generalist-vs-Microsoft debate |
@@ -18,7 +18,7 @@ The repository is not a blank business-design exercise. Established Startup-proj
 | Revenue architecture | Established baseline | Assessments/projects → implementation/remediation → recurring governance; supplemental licensing | Build financial model and commercial policies |
 | Delivery lifecycle | Established baseline | Discovery → strategy → scope → implementation → acceptance → handoff → recurring improvement | Build detailed playbooks and metrics |
 | Founder functions | Established baseline | Sales Founder: sales/relationships; Harvey: technology/security/strategy; Ben: operations | Formalize titles, authority, compensation, and legal status |
-| Ownership/equity | Open decision | No reliable approved percentages in the current record | Founder agreement and legal advice |
+| Ownership/equity | Developed working model | 51% controlling-founder floor; 20% sales pool; 20% execution pool; 9% future-use reserve; no dedicated advisor pool. Pools are not individual grants. | Approve exact grants, per-deal rates, instruments, tax treatment, voting terms, and counsel-reviewed agreements |
 | Entity/tax structure | Open professional decision | Legal and tax structure must fit founder arrangement and forecast | Obtain qualified legal and tax advice |
 | Partner ecosystem | Established baseline | Microsoft, distributor/indirect CSP, specialists, referrals, and independent professionals | Formalize partner strategy and qualification |
 | Distributor model | Established baseline | Launch through an authorized distributor/indirect CSP; remain candidate-neutral | Evaluate and select provider |
@@ -28,4 +28,4 @@ The repository is not a blank business-design exercise. Established Startup-proj
 | Knowledge system | Established baseline | Structured use cases, solution patterns, services, skills, projects, evidence, and lessons | Operate in repository first; delay complex platform build |
 | Go-to-market | Established baseline | Founder-led warm network, focused offers, pilots, case studies, referrals | Execute and measure |
 | Internal stack | Open product-selection decision | Minimal secure stack required across identity, endpoints, CRM, delivery, documentation, finance, and secrets | Select against requirements, not familiarity alone |
-| Contributor model | Developed baseline | Founder-led, supported by qualified specialists/contractors before broad hiring | Formalize contractor, security, IP, and quality terms |
+| Contributor model | Developed baseline | Initial three-to-five-person cohort: one strong sales lead plus multiple execution contributors; deal-based earning for the first group, then qualified specialists/contractors before broad hiring | Formalize eligibility, individual caps, commission interaction, contractor status, security, IP, and quality terms |
