@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document consolidates the business decisions, operating assumptions, commercial structures, service concepts, founder functions, partner model, delivery standards, technical direction, and launch sequence developed across the Startup project.
+This document consolidates the business decisions, operating assumptions, commercial structures, service concepts, founder functions, partner model, delivery standards, technical direction, and launch sequence developed across the Startup project and clearly related cross-thread refinements through August 18, 2026.
 
 It is intended to prevent Codex and future contributors from reopening settled conceptual work. The repository should use this material as the presumptive operating design unless a founder explicitly changes it through a decision record.
 
@@ -31,7 +31,7 @@ The business is not being designed from scratch. The following are established b
 
 ## Market baseline
 
-The initial core customer is a Microsoft-centric organization with approximately 10–150 employees. The broader practical range is roughly 1–200 users.
+The initial core customer is a Microsoft-centric organization with approximately 10–150 employees. The broader practical range is roughly 1–200 users. A deliberate secondary entry segment is 1–9-user owner/operator and early-stage businesses that need to start quickly while remaining secure and compliant; Foundation Core is the scoped offer for that segment.
 
 Typical conditions include:
 
@@ -79,7 +79,7 @@ Typical components:
 - Security posture improvement
 - Documentation and operational handoff
 
-Historical pricing discussions placed this at approximately $3,500–$7,500 for a defined implementation, subject to environment complexity, takeover risk, user count, and validation.
+The earlier $3,500–$7,500 range is superseded historical context. Current working tiers are Foundation Core (1–9 users, 26–32 hours, $6,000–$9,000), Foundation Full (10–25 users, 46 hours, $12,000–$18,000), and Foundation Complex (25+ users or materially higher risk, 60+ hours, $18,000+), all subject to validation.
 
 ### Standard cloud workplace
 
@@ -241,7 +241,7 @@ Titles considered included CTO and CTIO. The functional responsibility is more s
 - Quality and consistency
 - Turning designed services into repeatable delivery
 
-The founder functions are baseline operating assumptions. Equity, vesting, compensation, voting, legal authority, employment status, and departure terms remain legal and founder-governance decisions.
+The founder functions are baseline operating assumptions. The developed working economic model is a 51% controlling-founder floor, 20% total sales pool, 20% total execution pool, and 9% future-use reserve, with no dedicated advisor pool. The initial cohort is expected to pair one strong sales lead with multiple execution contributors across an overall three-to-five-person group. These are working founder terms—not executed grants. Exact individual allocations, per-deal vesting rates, compensation, voting instruments, legal authority, employment status, and departure terms remain legal and founder-governance decisions.
 
 ## Partnership and distribution baseline
 
