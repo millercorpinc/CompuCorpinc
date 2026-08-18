@@ -18,9 +18,11 @@ The core company design is substantially established. This repository exists to 
 8. `docs/business/05-PARTNERSHIPS-AND-DISTRIBUTION.md`
 9. `docs/business/09-OPERATING-MODEL.md`
 10. `docs/business/10-PRICING-AND-UNIT-ECONOMICS.md`
-11. `docs/architecture/00-ARCHITECTURE-OVERVIEW.md`
-12. `docs/operations/01-90-DAY-LAUNCH-PLAN.md`
-13. `ops/launch-backlog.yaml`
+11. `docs/launch/02-FOUNDER-EQUITY-AND-VESTING.md`
+12. `docs/launch/03A-SALES-EQUITY-TERMS.md`
+13. `docs/architecture/00-ARCHITECTURE-OVERVIEW.md`
+14. `docs/operations/01-90-DAY-LAUNCH-PLAN.md`
+15. `ops/launch-backlog.yaml`
 
 ## Established business baseline
 
@@ -29,7 +31,7 @@ Treat these as presumptive operating design:
 - Advisory-led technology company
 - Standardized implementation followed by recurring governance
 - Microsoft specialization with vendor-flexible integration
-- Primary 10–150-employee customer range
+- Primary 10–150-employee customer range, plus a deliberate 1–9-user owner/operator startup segment for Foundation Core
 - Fractional leadership, secure workplace, virtual workspace, security/compliance readiness, integration/automation, and managed governance services
 - Project-to-recurring revenue architecture
 - Sales → Strategy → Operations delivery flow
@@ -37,11 +39,13 @@ Treat these as presumptive operating design:
 - Microsoft, distributor/indirect-CSP, specialist, referral, and independent-professional partner ecosystem
 - Founder-led warm-market go-to-market motion
 - Repository-first structured knowledge system
+- Working founder economics: 51% control floor, 20% sales pool, 20% execution pool, and 9% future-use reserve; no dedicated advisor pool
+- Initial cohort shape: one strong sales lead plus multiple execution contributors, with deal-based earning and individual caps below the pool totals
 
 ## Genuine unresolved decisions
 
 - Final company name
-- Founder ownership, vesting, compensation, voting, authority, and departure terms
+- Legal implementation of the working founder-equity model, including per-deal rates, individual grants, vesting mechanics, voting instruments, compensation, authority, and departure terms
 - Legal and tax structure
 - Initial launch-offer sequence
 - Approved pricing and margin targets

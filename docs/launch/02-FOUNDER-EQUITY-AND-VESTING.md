@@ -2,7 +2,8 @@
 
 ## Source and status
 
-- Status: draft working recommendation for founder review and counsel validation
+- Status: developed working recommendation for founder review and counsel validation
+- Source: January 2026 Startup discussions plus August 18, 2026 founder-equity refinement thread
 - Purpose: define a founder-friendly structure that preserves founder control while treating equity as earned value rather than a friendship default
 - Scope: specific to the initial founder group; subject to legal and tax review before final execution
 - Not legal advice: this is an internal planning document, not legal counsel or tax advice
@@ -35,7 +36,17 @@
 | Reserved future-use buffer | 9% | Flexibility for later hires and strategic contributors |
 | Total | 100% |  |
 
-Note: the 20% sales and 20% execution pools are total pools, not guaranteed ownership for any one person. Individual caps must remain below the pool totals.
+Note: the 20% sales and 20% execution pools are total pools, not guaranteed ownership for any one person. Individual caps must remain below the pool totals. The 9% reserve is a future-use buffer, not an advisor pool; there is no dedicated advisor allocation in the working model.
+
+## Initial cohort design
+
+- Expected total initial group: three, four, or five people
+- Commercial shape: one strong founding sales lead
+- Delivery shape: multiple execution contributors rather than one execution owner receiving the whole pool
+- Eligibility: intended for the first founding contributors; it is not a permanent equity promise for all future employees or contractors
+- Economic trigger: paid qualifying deals, not time, enthusiasm, or informal participation
+
+The group size does not change the pool totals. Adding execution contributors divides attribution within the execution pool; it does not create another 20% pool.
 
 ## Recommended role caps
 
@@ -67,6 +78,10 @@ A qualifying event should include all of the following:
 - payment is received by the company;
 - delivery has begun or the work has been accepted;
 - contribution is attributable to the contributor or role.
+
+### Pool cap versus vesting rate
+
+The 20% sales pool and 20% execution pool are maximum company-wide buckets. They do not answer how quickly an individual reaches a cap. That requires a separately approved per-deal vesting rate or formula. The current 0.50% execution-per-deal ceiling is a draft guardrail, not a promise that every deal earns 0.50%. A deal-count forecast must therefore show the assumed deal allocation, contributor share, and individual cap rather than dividing 20% by a flat rate.
 
 ### Preferred methods
 
