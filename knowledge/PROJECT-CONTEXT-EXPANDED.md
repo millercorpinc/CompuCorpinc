@@ -206,7 +206,7 @@ The delivery lifecycle is:
 
 The Startup project consistently developed the following functional allocation:
 
-### Craig — President / Sales function
+### Sales Founder — President / Sales function
 
 - Revenue
 - Relationships

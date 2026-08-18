@@ -96,6 +96,108 @@ Unless explicitly included:
 
 Historical working range: approximately $3,500–$7,500 for a controlled environment, with higher pricing for takeover complexity, migration, cleanup, regulated requirements, nonstandard devices, or incomplete customer records.
 
+## Working delivery model and effort assumptions
+
+The following foundation estimates are working internal planning assumptions for a clean greenfield Microsoft tenant, not a universal price guarantee.
+
+### Base greenfield tenant effort
+
+For a new tenant with cooperative stakeholders, a competent executor, and no legacy identity or device complexity, the internal delivery baseline is approximately:
+
+- 46 execution hours for a complete foundation implementation
+
+This estimate assumes the work includes:
+
+1. Tenant creation and core setup
+2. Administrator hygiene and break-glass controls
+3. Identity baseline and Conditional Access
+4. PIM
+5. Intune enablement
+6. Device compliance policies
+7. Endpoint security and Defender policies
+8. Device hardening and baseline controls
+9. Update rings
+10. Email and Defender for Microsoft 365
+11. Secure Score tuning and validation
+12. Data architecture and sharing control
+13. Retention and Purview baseline
+14. Backup strategy definition and basic implementation
+15. SaaS application control and access review
+16. Logging and incident-readiness baseline
+17. Documentation, QA, and founder review
+
+### Included assumptions
+
+- New tenant only
+- Small number of SaaS apps
+- Limited or no shadow IT cleanup required
+- No SIEM or advanced SOC buildout
+- No legacy migration or takeover complexity
+- Executor familiar with Microsoft security and identity workflows
+- No regulatory or legal attestation beyond baseline governance and evidence collection
+
+### Excluded conditions
+
+The baseline estimate should be increased if any of the following apply:
+
+- tenant takeover or migration from another provider
+- complex legacy identity or authentication history
+- high-volume SaaS sprawl or unmanaged app inventory
+- device estate with nonstandard or unsupported endpoints
+- heavy data cleanup or classification work
+- regulatory or audit pressure beyond a normal governance baseline
+- extensive custom app integration or exceptional operational change risk
+
+### Foundation service tiers
+
+#### Foundation Core
+
+Target fit:
+
+- 1–9 users
+- small or early-stage organizations
+- need a legitimate baseline without overbuilding the environment
+
+Working scope:
+
+- essential tenant security baseline
+- identity, MFA, and Conditional Access basics
+- Intune and device management basics
+- Defender and email protections
+- core documentation and sign-off
+- staged upgrade path into Full Foundation later
+
+Working estimate:
+
+- 26–32 execution hours
+- approximate price: $6,000–$9,000
+
+#### Foundation (Full)
+
+Target fit:
+
+- 10–25 users
+- normal operating business with growth plans
+- need a fully documented, defendable tenant baseline
+
+Working estimate:
+
+- 46 execution hours
+- approximate price: $12,000–$18,000
+
+#### Foundation (Complex)
+
+Target fit:
+
+- 25+ users
+- regulated environments or materially higher complexity
+- takeover conditions, migration risk, or heavy app sprawl
+
+Working estimate:
+
+- 60+ execution hours or more, depending on customer conditions
+- approximate price: $18,000+ before major change-order risk
+
 ## Recurring attach
 
 - Managed governance

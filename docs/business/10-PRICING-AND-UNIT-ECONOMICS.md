@@ -38,6 +38,26 @@ Historical hypothesis for a secure workplace foundation:
 - Approximately $3,500–$7,500 for a straightforward implementation
 - Higher pricing for takeover risk, migrations, complex identity, nonstandard endpoints, data cleanup, regulated environments, or multi-site conditions
 
+### Foundation pricing calibration
+
+For internal planning, the current working commercial model is:
+
+- Foundation Core (1–9 users): approximately $6,000–$9,000
+- Foundation (Full): approximately $12,000–$18,000
+- Foundation (Complex): $18,000+ depending on complexity, migration risk, regulated obligations, or client churn risk
+
+These numbers are intentionally calibrated around a greenfield Microsoft tenant with a competent executor and controlled assumptions.
+
+#### Base greenfield estimate
+
+For a clean, brand-new tenant with no legacy identity issues and no major implementation chaos, the internal estimate is approximately:
+
+- 46 execution hours
+
+This estimate includes the core foundation tasks for identity, device, endpoint, backup definition, SaaS access control, logging readiness, and final documentation and founder review.
+
+This is not a commodity setup fee; it is the cost of delivering a legitimate operating baseline with evidence, documentation, and accountability.
+
 ### Time and materials
 
 Use when requirements or dependencies cannot be reliably bounded.

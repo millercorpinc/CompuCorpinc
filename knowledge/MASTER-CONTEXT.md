@@ -214,7 +214,7 @@ The role flow was summarized as:
 
 ## 7. Proposed founder functions
 
-### Craig — President / Sales function
+### Sales Founder — President / Sales function
 
 - Revenue
 - Relationships

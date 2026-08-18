@@ -1,0 +1,17 @@
+# CompuCorp Brand Palette v1
+
+Main orange: #E97B1F
+Bright orange accent: #F39A42
+Deep charcoal: #1F2A2D
+Graphite: #4A545B
+Warm gray: #EAE3DC
+Off-white: #F7F4F1
+White: #FFFFFF
+
+Suggested usage:
+- #E97B1F = primary identity accent
+- #1F2A2D = headings, text, structure
+- #EAE3DC = background neutral
+- #F7F4F1 = light surface background
+- #FFFFFF = clean white space
+- #4A545B = secondary text and supportive UI

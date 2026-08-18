@@ -30,6 +30,13 @@ These are the genuine unresolved decisions. Do not re-list established business 
 - Does the company lead with a paid assessment, the Secure Workplace Foundation, or a paired sequence?
 - Is an initial vertical focus useful, or should launch remain horizontal within the target customer range?
 - What is the minimum evidence required before publishing pricing?
+- Which foundation scope tier should be defaulted for new customer types: Foundation Core, Full Foundation, or a custom sequenced approach?
+
+## Commercial model and pricing
+
+- What is the approved launch pricing for Foundation Core, Full Foundation, and Complex Foundation engagements?
+- What conditions require change orders, add-ons, or re-pricing for legacy tenant takeover, migration, or backup complexity?
+- What minimum evidence is required before quoting greenfield tenant work at the full fixed-fee standard?
 
 ## Managed-service boundary
 

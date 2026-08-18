@@ -12,7 +12,7 @@
 - Commercial feedback
 - Market intelligence
 
-Historical proposed owner: Craig.
+Historical proposed owner: Sales Founder.
 
 ### Technology / Security / Strategy function
 

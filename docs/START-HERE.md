@@ -33,7 +33,7 @@ Treat these as presumptive operating design:
 - Fractional leadership, secure workplace, virtual workspace, security/compliance readiness, integration/automation, and managed governance services
 - Project-to-recurring revenue architecture
 - Sales → Strategy → Operations delivery flow
-- Craig / Harvey / Ben functional allocation
+- Sales Founder / Harvey / Ben functional allocation
 - Microsoft, distributor/indirect-CSP, specialist, referral, and independent-professional partner ecosystem
 - Founder-led warm-market go-to-market motion
 - Repository-first structured knowledge system

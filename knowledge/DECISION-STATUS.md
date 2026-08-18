@@ -13,10 +13,11 @@ The repository is not a blank business-design exercise. Established Startup-proj
 | Core customer | Established baseline | Primarily 10–150 employees; broader 1–200-user practical range | Validate language and segmentation through sales evidence |
 | Customer condition | Established baseline | Organizations with limited senior IT leadership, fragmented systems, weak governance, and security/compliance pressure | Use for qualification and messaging |
 | Service portfolio | Established baseline | Fractional leadership, secure workplace, virtual workspace, security/compliance readiness, integration/automation, managed governance | Productize and sequence |
-| Initial entry offers | Developed options | Assessment and Secure Workplace Foundation are strongest launch candidates | Choose launch sequence; do not redesign the full portfolio |
+| Initial entry offers | Established baseline | Secure Workplace Foundation is the primary launch offer; assessment can be used as a qualification or paired sequence | Use Foundation tiers and preserve a defined scope model |
+| Foundation pricing model | Established working model | Foundation Core: $6k–$9k; Foundation (Full): $12k–$18k; Foundation (Complex): $18k+; greenfield full implementation base estimate is ~46 execution hours | Validate against real customer evidence and cost model |
 | Revenue architecture | Established baseline | Assessments/projects → implementation/remediation → recurring governance; supplemental licensing | Build financial model and commercial policies |
 | Delivery lifecycle | Established baseline | Discovery → strategy → scope → implementation → acceptance → handoff → recurring improvement | Build detailed playbooks and metrics |
-| Founder functions | Established baseline | Craig: sales/relationships; Harvey: technology/security/strategy; Ben: operations | Formalize titles, authority, compensation, and legal status |
+| Founder functions | Established baseline | Sales Founder: sales/relationships; Harvey: technology/security/strategy; Ben: operations | Formalize titles, authority, compensation, and legal status |
 | Ownership/equity | Open decision | No reliable approved percentages in the current record | Founder agreement and legal advice |
 | Entity/tax structure | Open professional decision | Legal and tax structure must fit founder arrangement and forecast | Obtain qualified legal and tax advice |
 | Partner ecosystem | Established baseline | Microsoft, distributor/indirect CSP, specialists, referrals, and independent professionals | Formalize partner strategy and qualification |

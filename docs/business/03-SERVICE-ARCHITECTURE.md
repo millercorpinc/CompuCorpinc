@@ -44,8 +44,19 @@ Working components:
 - Endpoint security
 - Collaboration and sharing governance
 - Documentation and handoff
+- Backup strategy definition and basic implementation
+- SaaS app access review and control
+- Logging and incident-readiness baseline
 
-Historical price hypothesis: $3,500–$7,500 one time.
+Pricing model:
+
+- Foundation Core: approximately $6,000–$9,000 for 1–9 user environments
+- Foundation (Full): approximately $12,000–$18,000 for a clean greenfield implementation
+- Foundation (Complex): $18,000+ when legacy conditions, migration risk, or higher regulatory burden apply
+
+Working effort model for a clean greenfield tenant:
+
+- approximately 46 execution hours for a complete foundation implementation
 
 ### 3. Cloud and virtual workspace
 
