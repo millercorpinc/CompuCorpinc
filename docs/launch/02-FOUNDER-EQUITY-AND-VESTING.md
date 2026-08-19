@@ -2,144 +2,235 @@
 
 ## Source and status
 
-- Status: draft working recommendation for founder review and counsel validation
-- Purpose: define a founder-friendly structure that preserves founder control while treating equity as earned value rather than a friendship default
-- Scope: specific to the initial founder group; subject to legal and tax review before final execution
-- Not legal advice: this is an internal planning document, not legal counsel or tax advice
+- **Status:** business/economic design draft only; **not an executable equity plan or agreement**
+- **Research update:** 2026-08-19
+- **Purpose:** preserve the founder-control and performance-incentive principles while separating true founder ownership from contributor incentive compensation
+- **Required companion review:** `../legal/02-FOUNDER-EQUITY-AND-INCENTIVE-DESIGN.md` and `../legal/05-CURRENT-EQUITY-DRAFT-LEGAL-REVIEW.md`
+- **Not legal or tax advice:** no equity should be promised, issued, or treated as vested from this document alone
 
-## Operating principles
+## Important legal redesign
 
-1. The founder taking legal and financial risk should retain controlling authority.
-2. Equity is earned through actual contribution and real company value, not mere intent.
-3. No one receives equal founder equity by default.
-4. Sales and execution contribute differently and should be rewarded differently.
-5. Equity should vest only on real company outcomes, not on time alone.
-6. Unvested equity remains with the company and should not create ongoing control rights.
-7. The company should reserve a future-use buffer for real hires, strategic contributors, or capital partners.
+The original concept mixed founder ownership and deal-earned contributor equity. Those are now treated as separate layers.
 
-## Recommended founding structure
+### Layer 1 — true founder ownership
 
-### Control model
+Actual founders may receive founder units under counsel-reviewed formation documents. Founder ownership should address:
 
-- Founder control floor: 51% voting and control
-- Purpose: protect the company from coalitions, founder drift, and stalled decisions
-- This is the minimum control threshold for the founder carrying the legal and financial risk
+- initial ownership/economics;
+- voting/control;
+- manager appointment/removal;
+- capital contributions;
+- service expectations;
+- vesting/company repurchase rights;
+- departure, death, disability, divorce, bankruptcy, and transfer;
+- IP/confidentiality;
+- tax and securities compliance.
 
-### Initial company allocation model
+A common technology-startup benchmark is four-year founder vesting with a one-year cliff, but the final schedule is an open founder/counsel decision.
 
-| Bucket | Target allocation | Purpose |
+### Layer 2 — sales/execution incentives
+
+The existing deal-based concept should be implemented, if approved, through a formal incentive plan rather than automatically issuing ordinary membership interests after every deal.
+
+Counsel should compare:
+
+1. LLC profits-interest / incentive-unit plan;
+2. phantom-equity / unit-appreciation plan; and
+3. cash commission / profit-sharing for shorter-term contributors.
+
+The legal instrument has not been selected.
+
+## Operating principles retained
+
+1. The controlling founder should preserve the intended governance authority.
+2. Ownership should reflect actual commitment, risk, capital, and long-term contribution rather than friendship or title alone.
+3. Sales and execution create value differently and can use different incentive formulas.
+4. Performance incentives should depend on objective company outcomes.
+5. The company should preserve capacity for future hires, strategic contributors, and financing.
+6. Actual equity issuance requires formal approval, tax treatment, securities compliance, and entry in the ownership ledger.
+7. No one becomes an owner merely because an internal spreadsheet or project calculation shows an incentive credit.
+
+## Working economic model
+
+The following remains a **planning model**, not approved capitalization:
+
+| Bucket | Working target | Purpose |
 |---|---:|---|
-| Founder / controlling owner | 51% | Legal control, risk-taking, authority, final decision rights |
-| Sales pool | 20% | Revenue generation and deal creation |
-| Execution pool | 20% | Delivery, implementation, service operations, value realization |
-| Reserved future-use buffer | 9% | Flexibility for later hires and strategic contributors |
-| Total | 100% |  |
+| Controlling founder | 51% | Economic/voting planning target; control must also be encoded in governance documents |
+| Sales incentive reserve | 20% | Long-term revenue-generation incentives; instrument TBD |
+| Execution incentive reserve | 20% | Long-term delivery/value incentives; instrument TBD |
+| Future-use reserve | 9% | Future hires, contributors, or strategic needs |
+| Total | 100% | Planning basis only |
 
-Note: the 20% sales and 20% execution pools are total pools, not guaranteed ownership for any one person. Individual caps must remain below the pool totals.
+### Critical denominator question
 
-## Recommended role caps
+Every final percentage must state whether it refers to:
 
-### Sales role caps
+- issued and outstanding units;
+- fully diluted units;
+- voting power;
+- profits participation;
+- liquidation participation above a hurdle.
 
-- Early sales contributor: 10–12%
-- Strong founding sales lead: 15% maximum
-- Standard sales contributor: 4–6%
-- No one should receive a sales allocation without paid outcomes or approved commercial ownership
+The current percentages should not be signed until those terms are defined.
 
-### Execution role caps
+## Control model
 
-- Lead execution contributor: 5–7%
-- Standard execution contributor: 3–5%
-- Support or intermittent execution contributor: 1–3%
-- Execution contributors should be valued by actual project profit and delivery contribution, not by title alone
+The working objective remains that the controlling founder retains decisive authority.
 
-## Vesting framework
+For an Illinois LLC, the legal mechanism should be a **manager-managed Operating Agreement**, not a percentage alone. Illinois defaults to member management unless the Operating Agreement establishes manager management.
 
-### Core rule
+Counsel must define:
 
-No equity vests without a real, qualifying business event.
+- manager appointment/removal;
+- ordinary-course authority;
+- spending/contracting thresholds;
+- reserved member decisions;
+- equity issuance/admission authority;
+- related-party/conflict procedures;
+- dilution/control mechanics.
 
-### Qualifying event
+See `../decisions/ADR-0005-ENTITY-JURISDICTION-AND-INCENTIVE-ARCHITECTURE.md`.
 
-A qualifying event should include all of the following:
+## Founder ownership vesting
 
-- a client agreement is executed;
-- payment is received by the company;
-- delivery has begun or the work has been accepted;
-- contribution is attributable to the contributor or role.
+Founder vesting should protect the company against a founder receiving a large permanent stake and then leaving early.
 
-### Preferred methods
+Counsel should model:
 
-#### Option 1: deal-based vesting
+- reverse vesting/company repurchase;
+- one-year cliff or negotiated credit for significant pre-formation work;
+- monthly vesting thereafter;
+- treatment of voluntary departure;
+- termination for cause;
+- death/disability;
+- change-of-control acceleration, if any;
+- price/mechanics for repurchase.
 
-- best for the first founding team
-- equity is tied to paid client work
-- reduces the risk of gifting equity without revenue
+Founder ownership should **not** be forced to vest only when customer deals close. Long-term founder service and governance commitment are distinct from a sales/execution incentive.
 
-#### Option 2: a hybrid model
+## Sales incentive reserve
 
-- 80% of execution equity tied to deals
-- 20% tied to sustained operational ownership or retained service commitments
-- useful when a teammate is carrying the business through early operating friction
+### Working role caps
 
-### No retroactive vesting
+These remain hypotheses for modeling:
 
-- No equity for prior conversations, hopes, interest, or future promises
-- No equity for unclosed pipeline
-- No equity for “we’ll get there later” work
+- strong founding sales lead: up to approximately 15%;
+- early sales contributor: approximately 10–12%;
+- standard sales contributor: approximately 4–6%.
 
-## Deal attribution and control
+These are not grants.
 
-The founder or founder-controlled authority must have final decision-making authority over:
+### Performance basis
 
-- which contributor created the value on a deal;
-- how the deal is attributed;
-- how much equity each contributor earns from a transaction;
-- whether a deal qualifies for vesting at all.
+Sales incentives should be based on objective commercial outcomes such as:
 
-This should be expressed clearly in each contributor agreement and in the operating documents.
+- collected revenue;
+- contribution margin;
+- qualified recurring revenue;
+- customer retention;
+- approved account ownership.
 
-## Execution equity allocation method
+Do not treat pipeline, verbal commitments, or unpaid contracts as earned equity.
 
-Execution equity should be tied to the profit created by the contributor’s work, not just time spent. A practical approach is:
+### Legal caution
 
-1. Define the project’s execution profit as client payment minus direct delivery labor, tools, licenses, and sales commission.
-2. Determine each contributor’s share of the execution profit pool for that project.
-3. Apply the project’s execution equity allocation to each contributor proportionally.
-4. Subject the resulting allocation to the role-specific cap.
+An independent salesperson is not automatically eligible for the federal Rule 701 compensatory securities exemption. For early external sales contributors, cash commission/profit sharing may be legally and administratively cleaner until the long-term relationship and securities exemption are resolved.
 
-This keeps equity aligned with actual value creation and avoids subjective arguments based on effort alone.
+## Execution incentive reserve
 
-## Fairness logic
+### Working role caps
 
-This structure is fair because:
+These remain hypotheses:
 
-- the founder retains control because the founder takes risk;
-- sales contributors earn based on revenue generation;
-- execution contributors earn based on value realized through delivery;
-- contributors do not get ownership by default just because they are friends;
-- the company retains room to bring in qualified future hires without locking in early ownership forever.
+- lead execution contributor: approximately 5–7%;
+- standard execution contributor: approximately 3–5%;
+- support/intermittent contributor: approximately 1–3%.
 
-## Decision points before counsel review
+### Performance basis
 
-The following items should be confirmed before signing any final founder agreement:
+Retain the principle that execution incentives should reflect actual project economics and accepted delivery rather than time alone.
 
-- who is the controlling founder and legal signatory;
-- which people are considered founding contributors;
-- how many people are included in the initial founder pool;
-- whether the company forms as an LLC or corporation;
-- whether the company uses monthly vesting, deal-based vesting, or a hybrid model;
-- whether sales and execution pools remain separated or are merged later;
-- what the first legal and tax structure should be;
-- whether any early contributor receives a guaranteed founder allocation by exception.
+A better operating formula is a defined **Project Contribution Margin** and **Execution Credit** system, with formal legal awards occurring periodically or at thresholds rather than after every invoice.
+
+See `../legal/02-FOUNDER-EQUITY-AND-INCENTIVE-DESIGN.md`.
+
+## Qualifying performance event
+
+For performance incentives, a qualifying event should normally require:
+
+- binding customer agreement;
+- collected revenue;
+- delivery/customer acceptance or another defined completion condition;
+- attributable contribution under the written plan;
+- no unresolved refund/rescission condition that the plan treats as disqualifying.
+
+Separate these events from the **legal grant/vesting date**. A performance calculation does not itself issue a security.
+
+## Attribution governance
+
+The previous concept gave the founder unrestricted final discretion. The revised principle is:
+
+> The authorized plan administrator determines performance credits in good faith under written formulas using contemporaneous accounting, CRM, project, delivery, and customer-acceptance records.
+
+The plan should provide:
+
+- calculation statements;
+- short error-review window;
+- correction of objective factual/math errors;
+- conflict procedure;
+- optional independent-accountant determination for defined financial disputes;
+- preservation of applicable nonwaivable rights.
+
+This preserves founder/manager authority without relying on unnecessarily absolute language.
+
+## No retroactive ownership promises
+
+Retain these rules:
+
+- no ownership for conversations or enthusiasm alone;
+- no ownership for unclosed pipeline;
+- no ownership created by an informal verbal promise;
+- no issuance outside the approved plan and governance process.
+
+Pre-formation founder work may be recognized deliberately in founder vesting/start-date economics if the founders and counsel approve it.
+
+## Actual equity administrative requirements
+
+Before an actual unit/profits-interest grant:
+
+- Operating Agreement supports the instrument;
+- plan is approved;
+- authorized manager/member approval exists;
+- recipient status/classification is reviewed;
+- valuation/hurdle is documented if applicable;
+- federal securities exemption is documented;
+- state exemption/notice is documented;
+- award/joinder is signed;
+- Section 83(b) procedure is completed where applicable;
+- cap table/unit ledger is updated;
+- CPA/tax records are updated.
+
+## Decision points before counsel drafting
+
+Founders should resolve enough business intent to let counsel draft efficiently:
+
+- who are the true founders/initial owners;
+- controlling founder/control outcome;
+- initial economic split range;
+- founder service commitments;
+- founder vesting philosophy;
+- sales compensation philosophy;
+- execution-incentive philosophy;
+- number of people expected to become actual owners versus incentive participants;
+- expected outside financing in the next 24–36 months;
+- whether contributors are expected to be employees, contractors, or long-term partners.
 
 ## Recommended next action
 
-Take this framework to qualified legal counsel and formalize it in:
+Use this document as the business-terms input, then ask counsel/CPA to return two concrete alternatives:
 
-- a founder agreement;
-- a contributor agreement for each initial founder or early team member;
-- an equity ledger or cap table;
-- a decision record for controlling authority and reserved decisions.
+1. Illinois manager-managed LLC + partnership taxation + profits-interest/incentive-unit plan; and
+2. Illinois manager-managed LLC + founder units + phantom/cash incentive plan, including whether a later S-corporation election remains practical.
 
-This is a practical draft, not a completed legal instrument.
+No founder/contributor should sign the old execution-equity example as an operative equity agreement before that decision is made.

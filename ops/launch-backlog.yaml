@@ -37,8 +37,8 @@ workstreams:
         title: Execute counsel-reviewed founder agreement
         status: proposed
         owner_role: Founders
-        dependencies: [FND-003]
-        evidence: Executed agreement stored in approved secure system
+        dependencies: [FND-003, LEG-001A, LEG-001B, LEG-001C]
+        evidence: Executed founder ownership and governance package stored in approved secure system
         external_review: true
 
   - id: brand
@@ -74,14 +74,63 @@ workstreams:
         status: proposed
         owner_role: Founders
         dependencies: [FND-003]
-        evidence: Written professional recommendation
+        evidence: Written counsel and CPA recommendation addressing ADR-0005
+        external_review: true
+      - id: LEG-001A
+        title: Validate Illinois manager-managed governance architecture
+        status: proposed
+        owner_role: Legal / Founders
+        dependencies: [FND-003]
+        evidence: Counsel-reviewed manager appointment, removal, voting, reserved-matter, issuance, and conflict architecture
+        external_review: true
+      - id: LEG-001B
+        title: Select founder ownership and contributor incentive instruments
+        status: proposed
+        owner_role: Founders / Legal / Tax
+        dependencies: [FND-003, LEG-001A]
+        evidence: Written comparison and approved selection of founder units plus profits-interest, phantom, cash, or hybrid incentives
+        external_review: true
+      - id: LEG-001C
+        title: Establish securities and equity issuance procedure
+        status: proposed
+        owner_role: Legal / Finance
+        dependencies: [LEG-001B]
+        evidence: Approved plan, award forms, exemption checklist, approval workflow, and ownership ledger procedure
+        external_review: true
+      - id: LEG-001D
+        title: Determine Michigan nexus, foreign qualification, payroll, and withholding triggers
+        status: proposed
+        owner_role: Legal / Tax / Finance
+        dependencies: [LEG-001]
+        evidence: Written trigger matrix and registrations completed when applicable
         external_review: true
       - id: LEG-002
         title: Form entity and complete required registrations
         status: proposed
         owner_role: Legal
-        dependencies: [BRD-003, LEG-001]
-        evidence: Formation and registration records
+        dependencies: [BRD-003, LEG-001, LEG-001A]
+        evidence: Formation, governance, registration, and good-standing records
+        external_review: true
+      - id: LEG-004
+        title: Confirm Chicago business license and principal-location requirements
+        status: proposed
+        owner_role: Legal / Operations
+        dependencies: [LEG-002]
+        evidence: Applicable license, documented exemption, or written determination for the operating location
+        external_review: true
+      - id: LEG-005
+        title: Finalize worker, confidentiality, IP, and invention-assignment documents
+        status: proposed
+        owner_role: Legal / Operations
+        dependencies: [LEG-001B, LEG-002]
+        evidence: Approved employee and contractor templates with classification, IP, DTSA, and Illinois statutory requirements addressed
+        external_review: true
+      - id: TAX-001
+        title: Resolve Chicago and Illinois cloud/software reseller tax architecture
+        status: proposed
+        owner_role: Tax / Finance / Legal
+        dependencies: [LEG-001, PRT-002]
+        evidence: Written tax analysis covering Chicago PPTLT, Illinois lease/software tax, sourcing, resale/re-lease, invoicing, and collection responsibility
         external_review: true
       - id: FIN-001
         title: Establish banking, accounting, and expense controls
@@ -95,14 +144,14 @@ workstreams:
         status: proposed
         owner_role: Operations
         dependencies: [LEG-002]
-        evidence: Active policies and coverage review
+        evidence: Active policies and coverage review aligned to customer contract risk
         external_review: true
       - id: LEG-003
-        title: Prepare contract framework
+        title: Prepare modular contract framework
         status: proposed
         owner_role: Legal / Operations
-        dependencies: [LEG-002]
-        evidence: Counsel-reviewed MSA, SOW, and supporting schedules
+        dependencies: [LEG-002, RSK-001]
+        evidence: Counsel-reviewed MSA, SOW, change order, security/DPA, managed-service, access, reseller, subcontractor, and regulated-client modules
         external_review: true
 
   - id: service
@@ -166,7 +215,7 @@ workstreams:
         status: proposed
         owner_role: Technology / Finance
         dependencies: [LEG-002, SRV-001]
-        evidence: Weighted comparison and proposed decision
+        evidence: Weighted comparison including contracting, billing, tax, support, customer ownership, and transition responsibilities
         external_review: false
       - id: PRT-003
         title: Define specialist partner qualification process
@@ -230,7 +279,7 @@ workstreams:
         status: proposed
         owner_role: Sales / Strategy
         dependencies: [SRV-002, SRV-003, BRD-003]
-        evidence: Reviewed sales kit
+        evidence: Reviewed sales kit with security/compliance claims checked against professional boundaries
         external_review: true
       - id: MKT-003
         title: Build warm-network prospect and partner list
@@ -255,14 +304,14 @@ workstreams:
         status: proposed
         owner_role: Security / Operations / Legal
         dependencies: [LEG-003, INT-004]
-        evidence: Approved procedures and contract alignment
+        evidence: Approved procedures and contract alignment including HIPAA, GLBA, BIPA, or other trigger modules where applicable
         external_review: true
       - id: DLV-003
         title: Acquire and contract the first paid pilot
         status: proposed
         owner_role: Sales
-        dependencies: [MKT-002, MKT-003, DLV-001, DLV-002]
-        evidence: Signed pilot SOW
+        dependencies: [MKT-002, MKT-003, DLV-001, DLV-002, LEG-004]
+        evidence: Signed pilot SOW under approved contract framework
         external_review: false
       - id: DLV-004
         title: Deliver pilot and complete evidence-based closeout
