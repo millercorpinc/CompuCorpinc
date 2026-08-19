@@ -150,6 +150,13 @@ workstreams:
         dependencies: [SRV-002, SRV-003]
         evidence: Approved service schedule and escalation model
         external_review: true
+      - id: SRV-007
+        title: Test a productized owner-operated microbusiness security baseline
+        status: proposed
+        owner_role: Strategy / Operations / Sales
+        dependencies: [MKT-005, SRV-003]
+        evidence: Fixed-scope pilot with measured CAC, delivery hours, gross margin, support burden, and customer feedback
+        external_review: true
 
   - id: partners
     name: Partner and distribution ecosystem
@@ -239,6 +246,48 @@ workstreams:
         dependencies: [SRV-001]
         evidence: Prioritized outreach list
         external_review: false
+      - id: MKT-004
+        title: Build Chicago market denominator and target-NAICS dataset
+        status: proposed
+        owner_role: Strategy / Data
+        dependencies: []
+        evidence: Reproducible Chicago MSA table using revised SUSB, CBP, and NES data with firm counts, size bands, payroll, receipts, and source dates
+        external_review: false
+      - id: MKT-005
+        title: Run structured Chicago vertical and size-band interviews
+        status: proposed
+        owner_role: Sales / Strategy
+        dependencies: [MKT-004]
+        evidence: Approximately 30-40 structured interviews covering accounting/tax, legal, healthcare, and construction/field/property across owner-operated, 5-9, 10-49, and 50+ user bands
+        external_review: false
+      - id: MKT-006
+        title: Build scored Chicago target-account dataset from public registries and enrichment
+        status: proposed
+        owner_role: Sales / Strategy / Data
+        dependencies: [MKT-004]
+        evidence: Source-dated account table using appropriate City of Chicago, Illinois, CMS, association, website, and commercial-enrichment sources with ICP scoring
+        external_review: true
+      - id: MKT-007
+        title: Validate incumbent MSP pricing, spend, and coexistence opportunity
+        status: proposed
+        owner_role: Sales / Strategy / Finance
+        dependencies: [MKT-005]
+        evidence: Anonymized buyer spend data, representative competing proposals or public price evidence, incumbent conditions, and assessment-without-displacement test results
+        external_review: false
+      - id: MKT-008
+        title: Test trusted-channel acquisition paths
+        status: proposed
+        owner_role: Sales / Partnerships
+        dependencies: [MKT-005, PRT-003]
+        evidence: Measured experiments through accounting/legal networks, cyber-insurance brokers, professional associations, Microsoft/distributor relationships, and selected incumbent MSP referrals
+        external_review: true
+      - id: MKT-009
+        title: Replace market scenarios with observed conversion and unit economics
+        status: proposed
+        owner_role: Strategy / Finance
+        dependencies: [MKT-005, MKT-007, SRV-007, DLV-004]
+        evidence: Updated TAM/SAM/SOM model using observed qualification, annual buying trigger, close rate, CAC, first-year revenue, gross margin, recurring attach, and service capacity
+        external_review: true
 
   - id: delivery
     name: Delivery and pilots
