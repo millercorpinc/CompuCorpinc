@@ -16,6 +16,8 @@ The final company name remains open. `CompuCorp` is a temporary project/reposito
 6. `05-CURRENT-EQUITY-DRAFT-LEGAL-REVIEW.md` — risk review of the existing 51/20/20/9 and deal-based equity drafts.
 7. `06-COUNSEL-AND-CPA-CLOSING-CHECKLIST.md` — founder fact sheet and questions for professional review.
 8. `07-2026-CURRENT-LAW-VALIDATION.md` — time-sensitive 2026 validation of current statutes, agency positions, taxes, licensing, and regulated-client triggers.
+9. `08-PROFESSIONAL-REVIEW-BRIEF.md` — concise handoff specification for Illinois business counsel and the CPA/tax advisor.
+10. `09-LEGAL-DOCUMENT-SET.md` — governing-document hierarchy and the coordinated founder, incentive, worker, and customer contract set to have counsel build.
 
 Related proposed decision: `../decisions/ADR-0005-ENTITY-JURISDICTION-AND-INCENTIVE-ARCHITECTURE.md`.
 
