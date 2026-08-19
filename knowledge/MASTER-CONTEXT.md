@@ -238,7 +238,7 @@ The role flow was summarized as:
 
 Titles considered included CTO and a broader CTIO. No title is final.
 
-### Ben — Operations function
+### Bernard Cole (Ben) — Operations function
 
 - Delivery execution
 - Staffing
@@ -248,6 +248,8 @@ Titles considered included CTO and a broader CTIO. No title is final.
 - Change management
 - Quality and consistency
 - Repeatable delivery
+
+Profile evidence supplied 2026-08-18 identifies Bernard Cole as a Senior Manager of IT Operations focused on end-user computing and security operations, with more than 12 years of enterprise IT experience. Relevant capabilities include Microsoft 365 governance, Intune, Windows Autopilot, SCCM/MECM, Defender, MFA, Conditional Access, Azure Virtual Desktop, endpoint lifecycle, large-scale migrations, vendor/SLA management, automation, and distributed manufacturing, logistics, warehouse, and corporate environments.
 
 Functional roles are more developed than ownership, compensation, voting, and legal governance. Those remain open.
 

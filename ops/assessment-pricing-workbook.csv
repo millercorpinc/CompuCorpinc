@@ -1,0 +1,29 @@
+Section,Item,Input or formula,Value,Notes
+Instructions,Use,Enter assumptions in blank Value cells and review formulas in a spreadsheet,,This is a planning workbook not an approved price card
+Scope,Core assessment duration (days),Input,5,Working assumption: one week
+Scope,Core assessment hours,Formula,=SUM(D7:D10),Calculated from role hours below
+Scope,Optional business-systems module duration (days),Input,5,Separate one-week module
+Scope,Optional vertical-risk module duration (days),Input,5,Separate one-week module
+Capacity,Assessment lead hours,Input,,Include interviews analysis reporting and presentation
+Capacity,Technical reviewer hours,Input,,Include technical review and high-risk decisions
+Capacity,Operations/client coordination hours,Input,,Include scheduling workspace action tracking and follow-up
+Capacity,Contingency hours,Input,,Use for access delays and evidence gaps
+Rates,Assessment lead loaded hourly cost,Input,,Use actual internal or contractor cost
+Rates,Technical reviewer loaded hourly cost,Input,,Use actual internal or contractor cost
+Rates,Operations loaded hourly cost,Input,,Use actual internal or contractor cost
+Rates,Other direct costs,Input,,Travel tools subcontractors or specialist review
+Cost,Assessment lead cost,Formula,=D7*D11,Hours multiplied by loaded hourly cost
+Cost,Technical reviewer cost,Formula,=D8*D12,Hours multiplied by loaded hourly cost
+Cost,Operations/client coordination cost,Formula,=D9*D13,Hours multiplied by loaded hourly cost
+Cost,Contingency cost,Formula,=D10*D13,Use the operations rate unless a different rate is entered
+Cost,Total internal delivery cost,Formula,=SUM(D15:D18)+D14,Total delivery cost before margin
+Commercial,Target gross margin,Input,,Enter decimal such as 0.45 for 45 percent
+Commercial,Target price from cost,Formula,=D19/(1-D20),Price needed to reach target gross margin
+Commercial,Payment preference,Input,100% upfront preferred,Exceptions require approval
+Scenario,Core Microsoft baseline,Formula,=D21,Price only after hours and cost are reviewed
+Scenario,Core plus business-systems module,Formula,=D23+(D23/D3)*D5,Optional module is currently an effort placeholder and must be refined
+Scenario,Core plus vertical-risk module,Formula,=D23+(D23/D3)*D6,Optional module is currently an effort placeholder and must be refined
+Scenario,Core plus both modules,Formula,=D23+(D23/D3)*(D5+D6),Optional modules require explicit scope and customer approval
+Validation,Minimum evidence before fixed fee,Input,Executive sponsor; paid authorization; admin access; user/device inventory; secure workspace,Do not quote migration or takeover work without assessment evidence
+Validation,Review cadence,Input,After first 3 assessments,Compare planned versus actual hours price acceptance margin and conversion
+Validation,Approval owner,Input,Controlling founder,Final authority remains provisional pending founder governance

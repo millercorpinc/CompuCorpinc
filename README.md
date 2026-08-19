@@ -4,6 +4,14 @@ This repository is the canonical operating and architecture system for the found
 
 The legal name and public brand remain represented as **[COMPANY_NAME]** until approved.
 
+## Website
+
+The current internal operating site is published through GitHub Pages:
+
+https://millercorpinc.github.io/CompuCorpinc/
+
+GitHub Pages deploys the `site/` directory automatically whenever `main` is updated.
+
 ## This is not a blank business brainstorm
 
 The Startup project has already established the presumptive operating design:

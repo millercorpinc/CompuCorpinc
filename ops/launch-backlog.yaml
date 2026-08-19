@@ -115,6 +115,20 @@ workstreams:
         dependencies: [FND-002]
         evidence: Approved decision record
         external_review: false
+      - id: SRV-005
+        title: Test Chicago market tracks and assessment offer
+        status: proposed
+        owner_role: Sales / Strategy / Operations
+        dependencies: [SRV-001]
+        evidence: Account-track results, assessment feedback, and proposed decision update
+        external_review: false
+      - id: SRV-006
+        title: Complete assessment pricing and capacity workbook
+        status: proposed
+        owner_role: Finance / Operations
+        dependencies: [SRV-002]
+        evidence: Reviewed ops/assessment-pricing-workbook.csv with actual effort and cost inputs
+        external_review: true
       - id: SRV-002
         title: Productize the initial service
         status: proposed

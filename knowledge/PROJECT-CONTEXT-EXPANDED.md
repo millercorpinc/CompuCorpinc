@@ -230,7 +230,7 @@ The Startup project consistently developed the following functional allocation:
 
 Titles considered included CTO and CTIO. The functional responsibility is more settled than the formal title.
 
-### Ben — Operations function
+### Bernard Cole (Ben) — Operations function
 
 - Delivery execution
 - Staffing and resource coordination
@@ -240,6 +240,8 @@ Titles considered included CTO and CTIO. The functional responsibility is more s
 - Change management
 - Quality and consistency
 - Turning designed services into repeatable delivery
+
+Profile evidence supplied 2026-08-18 identifies Bernard Cole as a Senior Manager of IT Operations focused on EUC and security operations, with more than 12 years of enterprise IT experience. Relevant experience includes Microsoft 365, Intune, Windows Autopilot, SCCM/MECM, Defender, MFA, Conditional Access, Azure Virtual Desktop, endpoint lifecycle, large-scale Windows migrations, vendor/SLA management, PowerShell automation, and distributed manufacturing, logistics, warehouse, and corporate environments.
 
 The founder functions are baseline operating assumptions. Equity, vesting, compensation, voting, legal authority, employment status, and departure terms remain legal and founder-governance decisions.
 

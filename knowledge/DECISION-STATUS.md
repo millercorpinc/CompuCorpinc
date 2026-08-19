@@ -17,7 +17,7 @@ The repository is not a blank business-design exercise. Established Startup-proj
 | Foundation pricing model | Established working model | Foundation Core: $6k–$9k; Foundation (Full): $12k–$18k; Foundation (Complex): $18k+; greenfield full implementation base estimate is ~46 execution hours | Validate against real customer evidence and cost model |
 | Revenue architecture | Established baseline | Assessments/projects → implementation/remediation → recurring governance; supplemental licensing | Build financial model and commercial policies |
 | Delivery lifecycle | Established baseline | Discovery → strategy → scope → implementation → acceptance → handoff → recurring improvement | Build detailed playbooks and metrics |
-| Founder functions | Established baseline | Sales Founder: sales/relationships; Harvey: technology/security/strategy; Ben: operations | Formalize titles, authority, compensation, and legal status |
+| Founder functions | Established baseline | Sales Founder: sales/relationships; Harvey: technology/security/strategy; Bernard Cole (Ben): operations | Formalize titles, authority, compensation, and legal status |
 | Ownership/equity | Open decision | No reliable approved percentages in the current record | Founder agreement and legal advice |
 | Entity/tax structure | Open professional decision | Legal and tax structure must fit founder arrangement and forecast | Obtain qualified legal and tax advice |
 | Partner ecosystem | Established baseline | Microsoft, distributor/indirect CSP, specialists, referrals, and independent professionals | Formalize partner strategy and qualification |

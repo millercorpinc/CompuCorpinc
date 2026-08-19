@@ -24,10 +24,10 @@ Establish [COMPANY_NAME] as a legally and operationally viable business, launch 
 
 ### Commercial
 
-- Approve the initial target customer
-- Approve the initial entry offer
+- Review and approve the proposed Chicago/Chicagoland target tracks
+- Review and approve the proposed paid Technology and Security Baseline Assessment
 - Finalize service scope, exclusions, prerequisites, and acceptance
-- Build cost, capacity, and pricing models
+- Complete the assessment cost, capacity, and pricing workbook in `ops/assessment-pricing-workbook.csv`
 
 ### Technology
 
@@ -41,6 +41,7 @@ Establish [COMPANY_NAME] as a legally and operationally viable business, launch 
 ### Sales
 
 - Build warm-network account list
+- Start with approximately five accounts per proposed prospect track, flexing to actual relationship strength and trigger events
 - Prepare one-page offer
 - Prepare discovery questionnaire
 - Prepare proposal and statement-of-work package
@@ -48,6 +49,7 @@ Establish [COMPANY_NAME] as a legally and operationally viable business, launch 
 
 ### Delivery
 
+- Define the core Microsoft baseline week and optional one-week business-systems and vertical-risk modules
 - Build implementation checklist
 - Build architecture and security baseline
 - Build customer access and offboarding procedures
@@ -82,3 +84,4 @@ Establish [COMPANY_NAME] as a legally and operationally viable business, launch 
 - Active qualified pipeline
 - At least one paid pilot contracted or delivered
 - Lessons captured in the repository
+- Initial market-track, assessment, and pricing evidence reviewed against the proposed launch brief

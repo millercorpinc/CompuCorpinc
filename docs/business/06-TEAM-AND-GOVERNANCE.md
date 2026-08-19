@@ -39,7 +39,9 @@ Historical proposed owner: Harvey.
 - Quality and consistency
 - Repeatable delivery
 
-Historical proposed owner: Ben.
+Historical proposed owner: Bernard Cole (Ben).
+
+Profile evidence supplied 2026-08-18 supports this functional allocation: Bernard Cole's background includes senior IT operations, EUC and security operations, Microsoft 365 governance, Intune, Autopilot, SCCM/MECM, Defender, Conditional Access, Azure Virtual Desktop, migrations, vendor management, and service-level governance.
 
 ## Important distinction
 

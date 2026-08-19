@@ -4,6 +4,12 @@
 
 Move from developed concept to a legally established, commercially ready, secure, and deliverable business.
 
+## Current proposed launch direction
+
+The working launch proposal is Chicago and Chicagoland first, testing four prospect tracks: physicians and clinics; CPA and accounting firms; construction and field services; and law firms or other regulated professional firms. The proposed entry motion is a paid Technology and Security Baseline Assessment, with an optional Microsoft Secure Workplace Foundation implementation. See `docs/launch/07-CHICAGO-MARKET-AND-MICROSOFT-ASSESSMENT-BRIEF.md`.
+
+This remains proposed until the founders approve the market, offer, pricing, authority, and professional-boundary decisions.
+
 ## Workstreams
 
 1. Founder governance
@@ -30,6 +36,7 @@ Required:
 - Ownership principles
 - Conflict and departure process
 - Initial capital and compensation principles
+- Bernard Cole (Ben)'s and Michael's formal titles, authority, availability, and delivery allocation
 
 ### Gate 2 — Legal readiness
 
@@ -51,6 +58,8 @@ Required:
 - Discovery and proposal process
 - Sales materials
 - Partner dependencies understood
+- Chicago prospect-track test plan and assessment modules defined
+- Assessment cost, capacity, and pricing model reviewed
 
 ### Gate 4 — Delivery readiness
 
@@ -63,6 +72,7 @@ Required:
 - Testing and acceptance
 - Escalation and incident process
 - Capacity confirmed
+- Bernard Cole's relevant Microsoft/EUC/security delivery capabilities assigned to defined workstreams
 
 ### Gate 5 — Pilot launch
 
@@ -74,3 +84,4 @@ Required:
 - Success measures
 - Evidence capture plan
 - Post-engagement review
+- Assessment evidence captured before any migration or takeover scope is fixed-priced
