@@ -83,9 +83,10 @@ For entity, founder, equity, contract, tax, workforce, privacy/security, and mul
 5. `docs/legal/04-GOVERNING-LAW-AND-SOURCE-MATRIX.md`
 6. `docs/legal/05-CURRENT-EQUITY-DRAFT-LEGAL-REVIEW.md`
 7. `docs/legal/06-COUNSEL-AND-CPA-CLOSING-CHECKLIST.md`
-8. `docs/decisions/ADR-0005-ENTITY-JURISDICTION-AND-INCENTIVE-ARCHITECTURE.md`
+8. `docs/legal/07-2026-CURRENT-LAW-VALIDATION.md`
+9. `docs/decisions/ADR-0005-ENTITY-JURISDICTION-AND-INCENTIVE-ARCHITECTURE.md`
 
-The legal research is a decision-support system, not a substitute for qualified counsel/tax review. Do not mark ADR-0005 or any entity/equity structure approved without founder approval and professional validation.
+The legal research is a decision-support system, not a substitute for qualified counsel/tax review. Do not mark ADR-0005 or any entity/equity structure approved without founder approval and professional validation. The `07-2026-CURRENT-LAW-VALIDATION.md` note intentionally contains time-sensitive rules and must be re-checked when a triggering transaction actually occurs.
 
 ## Immediate execution sequence
 
