@@ -1,0 +1,378 @@
+{
+  "dataset": {
+    "name": "Harvey Miller Public-Safe Resume Dataset",
+    "version": "0.3",
+    "compiled": "2026-09-08",
+    "purpose": [
+      "founder bios",
+      "resumes",
+      "LinkedIn",
+      "proposals",
+      "capability statements",
+      "interview preparation",
+      "company positioning"
+    ],
+    "location": "Chicago, IL",
+    "current_role": "Sr. Director, Infrastructure and Compliance",
+    "public_safe": true,
+    "source_material_private": true
+  },
+  "metrics": {
+    "years_it_infrastructure": "14+",
+    "years_current_company": 11,
+    "years_formal_leadership": "9+",
+    "soc2_cycles_completed_under_authority": 6,
+    "soc2_current_cycle_number": 7,
+    "soc2_total_program_cycles_participated": 10,
+    "annual_policy_cycles_signed": 5,
+    "company_population_supported": "170+",
+    "company_divisions_supported": 5,
+    "documented_projects_programs": "90+",
+    "transition_systems_reviewed": "60+",
+    "software_portfolio_scope": "seven-figure annual portfolio",
+    "custom_ai_skills_agents": 17,
+    "it_policy_documents": 24
+  },
+  "career": [
+    {
+      "employer": "Technology Consulting & Managed Services Firm",
+      "location": "Chicago, IL",
+      "start": "2015-09",
+      "end": null,
+      "roles": [
+        {
+          "title": "Sr. Director, Infrastructure and Compliance",
+          "linkedin_title": "Sr. Director, IT Infrastructure & Compliance",
+          "linkedin_start": "2025-01",
+          "end": null,
+          "summary": "Executive owner of internal infrastructure, cloud, identity, endpoints, security, compliance, vendors, licensing, budget, and AI enablement; reports to the company president.",
+          "scope": [
+            "Microsoft cloud ecosystem",
+            "identity and privileged access",
+            "endpoint management",
+            "security tooling",
+            "business applications and automation",
+            "ITSM/service management",
+            "enterprise networking and cloud connectivity",
+            "physical access systems",
+            "technology budget, vendors, and licensing"
+          ],
+          "governance": [
+            "recurring Change Advisory Board chair/final change authority",
+            "enterprise-risk governance owner",
+            "company-wide AI enablement"
+          ],
+          "selected_accomplishments": [
+            "enterprise Windows 11 migration and Windows 10 retirement",
+            "just-in-time privileged-access modernization",
+            "security-tool consolidation",
+            "regional site decommission with audit evidence",
+            "recurring disaster-recovery failover and restore validation",
+            "SOC 2 scope continuity through acquisition",
+            "vulnerability-management maturation",
+            "modern endpoint-management migration",
+            "identity cleanup and enterprise-app governance",
+            "architecture documentation generated from live platform data"
+          ]
+        },
+        {
+          "title": "Director, IT Infrastructure & Compliance",
+          "start": "2023-07",
+          "linkedin_end": "2025-01",
+          "responsibilities": [
+            "technology strategy",
+            "network/datacenter/cloud oversight",
+            "cybersecurity and compliance",
+            "business technology solutions",
+            "software/hardware budget",
+            "vendor and contract management",
+            "digital transformation"
+          ]
+        },
+        {
+          "title": "Manager, IT and Infrastructure, Lab and Demo",
+          "start": "2020-02",
+          "end": "2023-07",
+          "responsibilities": [
+            "technology cost",
+            "compliance",
+            "operations",
+            "project delivery",
+            "ITSM incident/change operations",
+            "budget ownership",
+            "vendor/subcontractor management",
+            "security questionnaires",
+            "contractual security requirements"
+          ],
+          "compliance_authority_start": "2020-02"
+        },
+        {
+          "title": "Lab Manager",
+          "start": "2018-12",
+          "end": "2020-02",
+          "technical_scope": [
+            "multi-cloud infrastructure",
+            "virtualization",
+            "identity",
+            "networking",
+            "datacenter/lab engineering"
+          ]
+        },
+        {
+          "title": "Managed Services Engineering Supervisor",
+          "linkedin_title": "Tier-2 MS Engineering Supervisor",
+          "start": "2017-01",
+          "end": "2018-12",
+          "summary": "First formal people-leadership role while carrying a full technical workload.",
+          "technical_scope": [
+            "enterprise collaboration",
+            "storage",
+            "compute",
+            "virtualization"
+          ]
+        },
+        {
+          "title": "Managed Services Support Consultant",
+          "linkedin_title": "Support Consultant",
+          "start": "2015-09",
+          "end": "2016-12",
+          "key_outcome": "Primary technical resource in building a new enterprise collaboration managed-services offering, including support processes, documentation, automated testing, client reporting, and escalation support."
+        }
+      ]
+    },
+    {
+      "employer": "Regional Transportation Company",
+      "location": "Wisconsin",
+      "roles": [
+        {
+          "title": "Senior Systems Analyst / Engineer",
+          "start": "2013-10",
+          "end": "2015-07",
+          "technical_scope": [
+            "unified communications",
+            "virtualization",
+            "certificate services"
+          ]
+        },
+        {
+          "title": "Systems Analyst / Engineer",
+          "start": "2012-06",
+          "end": "2013-10",
+          "technical_scope": [
+            "enterprise backup",
+            "DR replication",
+            "remote desktop infrastructure",
+            "virtualization management"
+          ]
+        }
+      ]
+    }
+  ],
+  "flagship_programs": [
+    {
+      "name": "Acquisition IT Transition",
+      "role": "OWNED",
+      "period": "2026",
+      "metrics": {
+        "systems_reviewed": "60+",
+        "annual_software_portfolio": "seven figures"
+      },
+      "evidence": [
+        "authored governing IT transition plan",
+        "built master tracker and disposition framework",
+        "built renewal-risk and ownership tracking",
+        "defined multi-workstream transition execution",
+        "generated current/future-state architecture from live platform data",
+        "built continuity and knowledge-transfer workstream"
+      ]
+    },
+    {
+      "name": "AI Accelerator",
+      "role": "OWNED / FOUNDED",
+      "period": "2026-present",
+      "metrics": {
+        "custom_ai_skills_agents": 17
+      },
+      "evidence": [
+        "company-wide AI education/adoption strategy",
+        "dedicated operating model",
+        "process-improvement tracking model",
+        "Responsible AI Use policy",
+        "use-case library",
+        "prompt library",
+        "cross-functional enablement"
+      ]
+    },
+    {
+      "name": "SOC 2 Type II Program",
+      "role": "INHERITED 2020 -> OWNED",
+      "authority_start": "2020-02",
+      "cycles_completed_under_authority": 6,
+      "current_cycle": 7,
+      "documented_lapses": 0
+    },
+    {
+      "name": "Security & Compliance Policy Library",
+      "role": "OWNED",
+      "ownership_start": 2021,
+      "policy_documents": 24,
+      "annual_signed_cycles": 5,
+      "governance_evolution": "single-owner approval -> board co-approval -> independent validation"
+    }
+  ],
+  "financial_impact": {
+    "partner_program_licensing_optimization": {
+      "public_safe_claim": "more than $450K/year in documented retail licensing exposure offset",
+      "claim_status": "documented resume-level outcome; underlying SKU counts and pricing withheld"
+    },
+    "m365_consolidation": {
+      "public_safe_claim": "more than $250K/year and more than 80% run-rate reduction",
+      "claim_status": "documented actual reduction; underlying baseline and line items withheld"
+    },
+    "infrastructure_telecom": {
+      "public_safe_claim": "more than $75K/year in infrastructure/telco/colocation run-rate removed",
+      "claim_status": "documented; vendor and contract line items withheld"
+    },
+    "additional_savings": {
+      "public_safe_claim": "additional documented telephony, vendor, hardware-reuse, and equipment-resale savings",
+      "claim_status": "documented; detailed amounts and commercial terms withheld from public dataset"
+    },
+    "cloud_commitment_strategy": {
+      "public_safe_claim": "material modeled annual savings",
+      "claim_status": "modeled/recommended; do not represent as realized without implementation evidence"
+    },
+    "unclaimed_partner_entitlements": {
+      "public_safe_claim": "material additional unrealized entitlement capacity identified",
+      "claim_status": "opportunity/capacity, not realized savings"
+    }
+  },
+  "governance_security": {
+    "change_governance": "recurring CAB chair and final change authority",
+    "risk_governance": "enterprise-risk governance owner",
+    "dr_testing": "recurring",
+    "access_review": "annual",
+    "phishing_simulation": "monthly",
+    "vulnerability_management": "recurring scanning and remediation governance",
+    "policy_ownership_start": 2021
+  },
+  "technology": {
+    "microsoft_cloud": [
+      "Microsoft 365",
+      "Azure",
+      "Entra ID",
+      "Intune",
+      "Defender",
+      "Sentinel",
+      "Dynamics 365",
+      "Power Platform",
+      "Power Automate",
+      "Power BI",
+      "Microsoft Copilot",
+      "Windows 365",
+      "AVD",
+      "Azure Site Recovery"
+    ],
+    "other_cloud": ["AWS", "GCP", "Google Workspace"],
+    "network_security": [
+      "Palo Alto",
+      "Cisco Meraki",
+      "SD-WAN",
+      "Cisco Umbrella",
+      "Azure Firewall",
+      "Cisco ACI",
+      "Cisco UCS"
+    ],
+    "virtualization_storage": [
+      "VMware",
+      "enterprise storage",
+      "SAN",
+      "Data Domain",
+      "enterprise backup and replication"
+    ],
+    "security_grc": [
+      "Qualys",
+      "Tenable",
+      "Microsoft Defender",
+      "GRC/vCISO tooling",
+      "security-awareness tooling",
+      "endpoint-management tooling",
+      "password management"
+    ],
+    "business_platforms": [
+      "ServiceNow",
+      "GitHub Enterprise",
+      "CRM/revenue tooling",
+      "data-integration tooling",
+      "Planner",
+      "Loop"
+    ]
+  },
+  "linkedin": {
+    "captured": "2026-09-08",
+    "visible_skill_count": 55,
+    "visible_certifications": [
+      {
+        "name": "Microsoft 365 Certified: Teams Administrator Associate",
+        "issued": "2024-08",
+        "expired": "2025-08"
+      },
+      {
+        "name": "Holding Your Team Accountable",
+        "issuer": "LinkedIn Learning",
+        "issued": "2022-08"
+      }
+    ],
+    "total_license_certification_count_shown": 4,
+    "recommendations": [
+      {
+        "source": "2023 colleague recommendation",
+        "name_withheld": true,
+        "visible_themes": [
+          "growth mindset",
+          "problem solving",
+          "curiosity",
+          "willingness to learn",
+          "management strength"
+        ]
+      },
+      {
+        "source": "2015 senior-leader recommendation",
+        "name_withheld": true,
+        "visible_themes": [
+          "standout talent",
+          "immediate positive impact",
+          "technical diagnosis and resolution"
+        ]
+      }
+    ]
+  },
+  "public_disclosure_controls": [
+    "No client/customer names or uniquely identifying customer details.",
+    "No coworker, executive, auditor, recommender, partner-contact, or third-party individual names without explicit approval.",
+    "No personal contact information, tenant IDs, account IDs, hostnames, IP addresses, credentials, secrets, or internal URLs.",
+    "No raw source documents, emails, audit evidence, spreadsheets, screenshots, or internal transition trackers.",
+    "No exact SKU counts, confidential vendor pricing, contract renewal dates, internal commercial terms, or detailed budget tables.",
+    "No incident-forensics detail, active security weaknesses, remediation gaps, or environment-specific reconnaissance detail.",
+    "Use rounded resume-level company, system, portfolio, and financial metrics in this public repository."
+  ],
+  "claim_controls": [
+    "Do not represent modeled/recommended cloud savings as realized without separate implementation evidence.",
+    "Do not represent unredeemed partner entitlements as captured savings.",
+    "Preserve OWNED, LED, SPONSORED, CONTRIBUTED, INHERITED, and APPROVED distinctions.",
+    "Do not claim projects assigned to other engineers as Harvey's projects.",
+    "Do not publish a numerical promotion count until the role-sequence discrepancy is reconciled.",
+    "Use LinkedIn dates/titles where screenshots provide exact evidence and note discrepancies rather than silently normalizing them.",
+    "Generate public-facing material from this sanitized dataset rather than from raw private source documents."
+  ],
+  "data_gaps": [
+    "education degree/institution/year",
+    "complete certification history",
+    "peak historical team size",
+    "additional verified public-safe outcome metrics",
+    "endpoint/device counts if suitable for public disclosure",
+    "managed-services client counts if suitable for public disclosure",
+    "uptime/SLA metrics if suitable for public disclosure",
+    "speaking/publication/community activity",
+    "remaining two LinkedIn licenses/certifications"
+  ]
+}
