@@ -22,6 +22,8 @@ The core company design is substantially established. This repository exists to 
 12. `docs/operations/01-90-DAY-LAUNCH-PLAN.md`
 13. `ops/launch-backlog.yaml`
 
+For current Chicago market sizing and segmentation research, begin with `docs/research/chicago-market/README.md`. That material is research and scenario analysis, not an approved change to the core customer or launch verticals.
+
 ## Established business baseline
 
 Treat these as presumptive operating design:
@@ -49,6 +51,8 @@ Treat these as presumptive operating design:
 - Distributor and specific partner selections
 - Specific internal operating tools
 - Startup capital and first pilot customer
+- Whether the researched owner-operated/microbusiness segment warrants a separate product after validation
+- Whether any launch vertical should become a durable preferred market after interviews and paid pilots
 
 ## Major sections
 
@@ -56,6 +60,8 @@ Treat these as presumptive operating design:
 |---|---|
 | Expanded project context | `knowledge/PROJECT-CONTEXT-EXPANDED.md` |
 | Business model | `docs/business/` |
+| Market research | `docs/research/` |
+| Chicago market deep dive | `docs/research/chicago-market/` |
 | Service playbooks | `docs/services/` |
 | Company architecture | `docs/architecture/` |
 | Operating playbooks | `docs/operations/` |
@@ -75,5 +81,6 @@ Treat these as presumptive operating design:
 5. Establish internal security and minimum operating tools.
 6. Select distributor pathway and qualify critical partners.
 7. Complete sales and delivery readiness.
-8. Acquire and deliver the first paid pilot.
-9. Update the service model from actual evidence.
+8. Execute the Chicago market-data and structured-interview plan alongside prospecting.
+9. Acquire and deliver the first paid pilot.
+10. Update the service and segmentation model from actual evidence.
