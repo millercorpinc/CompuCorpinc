@@ -1,124 +1,218 @@
-# Execution Equity Terms (Draft Example)
+# Execution Incentive Terms — Business Design Example
 
 ## Source and status
 
-- Status: draft language for founder and counsel review
-- Purpose: provide a practical example of a deal-based, profit-weighted execution equity model
-- Not legal advice: use only as a working template for attorney review
+- **Status:** non-executable business-design example; **do not sign or treat as an equity grant**
+- **Research update:** 2026-08-19
+- **Purpose:** preserve the deal-based, profit-weighted execution incentive concept while separating performance measurement from legal equity issuance
+- **Superseded for legal implementation by:**
+  - `../legal/02-FOUNDER-EQUITY-AND-INCENTIVE-DESIGN.md`
+  - `../legal/05-CURRENT-EQUITY-DRAFT-LEGAL-REVIEW.md`
+  - `../decisions/ADR-0005-ENTITY-JURISDICTION-AND-INCENTIVE-ARCHITECTURE.md`
+- **Not legal or tax advice:** worker status, incentive instrument, tax treatment, securities exemption, vesting, and ownership rights must be established in counsel-reviewed documents
 
-## Draft language
+## Design principle
 
-This Execution Equity Vesting Agreement (this Agreement) is entered into by and between:
+The company may reward execution contributors based on collected customer revenue, project contribution margin, accepted delivery, and attributable value creation.
 
-- Company: [COMPANY_NAME]
-- Contributor: [CONTRIBUTOR NAME]
-- Effective Date: [DATE]
+A performance calculation **does not itself create ownership**. It creates only an internal Performance Credit unless and until an approved incentive plan and award document provide otherwise.
 
-### 1. Relationship
+## 1. Relationship status is separate
 
-Contributor is engaged as an independent contractor to provide execution, delivery, and operational services to the Company. Nothing in this Agreement creates an employment relationship, partnership, joint venture, or co-ownership arrangement, except as expressly stated herein.
+This document does not determine whether a contributor is:
 
-### 2. Founder control
+- an employee;
+- an independent contractor;
+- a founder/member;
+- a partner for tax purposes;
+- or a participant in a phantom-equity plan.
 
-The Founder retains the controlling voting rights and authority of the Company and shall maintain at least fifty-one percent (51%) of the Company’s voting power unless otherwise approved in writing by the Founder. No contributor shall have authority to bind the Company, approve contracts, issue equity, or sign on behalf of the Company unless expressly authorized in writing by the Founder.
+The actual working relationship and selected incentive instrument control. A contract label alone does not determine worker classification, and a true ownership award in a partnership-taxed LLC can change the recipient's tax status.
 
-### 3. Equity pool
+## 2. Founder control is established elsewhere
 
-Contributor may earn equity only from the Company’s Execution Equity Pool, which shall not exceed twenty percent (20%) of the Company’s total fully diluted equity.
+The working business objective is founder-controlled governance, but control should be encoded through the manager-managed Operating Agreement, manager appointment/removal rights, voting provisions, and reserved matters.
 
-### 4. Qualifying deal
+No contributor has authority to bind the company, execute customer agreements, incur debt, issue securities, or act as manager unless expressly authorized under the governing documents.
 
-A Qualifying Deal is a client engagement for which:
+## 3. Execution incentive reserve
 
-- a binding agreement is executed;
-- payment is received by the Company;
-- delivery has commenced or been accepted.
+The current planning model reserves up to 20% on a fully diluted planning basis for execution incentives.
 
-No equity shall vest for unpaid work, verbal promises, future opportunities, prospective customers, or time spent alone.
+This reserve is not an issued class of units and does not guarantee that the entire reserve will become actual equity. Counsel may implement some or all of the economics using:
 
-### 5. Deal-based vesting
+1. profits-interest / incentive units;
+2. phantom units / unit-appreciation rights; or
+3. cash profit-sharing or bonuses.
 
-Equity shall vest only in connection with Qualifying Deals. No equity shall vest based on time spent, attendance, availability, or intent to perform.
+Individual caps remain business hypotheses until approved.
 
-### 6. Execution profit
+## 4. Qualifying Deal
 
-For purposes of equity allocation, Execution Profit shall mean:
+A Qualifying Deal should normally require:
 
-Client Payment
-minus direct execution labor cost
-minus direct execution tools or licenses
-minus sales commissions
+- a binding customer agreement;
+- collected customer revenue;
+- delivery commenced and the applicable milestone accepted, or another written completion condition satisfied;
+- the contributor performed qualifying work documented in company project records;
+- no unresolved refund, rescission, fraud, or material nonperformance condition that the approved plan treats as disqualifying.
 
-equals Execution Profit.
+No Performance Credit is earned for verbal opportunities, unpaid pipeline, mere availability, or an intention to contribute.
 
-The Company shall determine all cost allocations and profit calculations in good faith and in its sole discretion.
+## 5. Separate performance and legal dates
 
-### 7. Allocation of equity
+The final plan should distinguish:
 
-Contributor’s share of equity from any Qualifying Deal shall be determined based on Contributor’s share of the Execution Profit generated for that deal. The Company may assign a percentage of the execution equity for a deal to each contributor according to the contributor’s actual share of project value creation.
+- **Contracted Date** — customer agreement executed;
+- **Collected Revenue Date** — qualifying customer payment clears;
+- **Customer Acceptance Date** — applicable milestone accepted;
+- **Measurement Date** — project economics calculated;
+- **Credit Approval Date** — Plan Administrator approves Performance Credits;
+- **Grant/Vesting Date** — only if/when an approved legal award is formally granted or vests.
 
-Example: if the total execution equity allocated for a deal is 0.50% and Contributor generated 30% of the project profit, Contributor shall receive 0.15% of equity for that deal.
+The first five dates do not automatically issue a security.
 
-### 8. Per-deal cap
+## 6. Project Contribution Margin
 
-The maximum execution equity that may vest for any single Qualifying Deal shall not exceed 0.50% of the Company’s total equity.
+For incentive measurement, counsel/CPA and founders should approve a formula substantially like:
 
-### 9. Individual caps
+`Collected client revenue`  
+minus `refunds and credits`  
+minus `direct third-party or subcontractor delivery cost`  
+minus `direct labor cost at the approved internal cost rate`  
+minus `deal-specific tools/licenses not separately reimbursed`  
+minus `sales commission attributable to the engagement`  
+= **Project Contribution Margin**
 
-No individual execution contributor may receive more than the following total equity without written approval from the Founder:
+The final policy should also define:
 
-- Standard execution contributor: 5%
-- Lead execution contributor: 7%
-- Sales contributor: subject to separate sales agreement and sales pool rules
+- whether pass-through licenses are excluded from revenue;
+- treatment of reimbursed expenses;
+- bad debt;
+- warranty/rework cost;
+- overhead, if any;
+- timing of final calculation;
+- accounting source of truth.
 
-### 10. No retroactive vesting
+## 7. Execution Credits
 
-Any work performed before the Effective Date of this Agreement, or any deal that does not meet the definition of a Qualifying Deal, shall not vest equity.
+Rather than issuing a tiny membership interest after every invoice, the company should maintain an internal Execution Credit ledger.
 
-### 11. Attribution
+A possible operating method:
 
-The Company shall have sole and final authority to determine:
+1. each Qualifying Deal produces a defined number or percentage of Execution Credits based on Project Contribution Margin;
+2. credits are allocated among qualifying contributors using documented roles and contribution evidence;
+3. credits accumulate through a measurement period;
+4. at quarterly intervals or defined thresholds, the company determines whether credits convert into an approved cash, phantom, or actual-equity award;
+5. any actual security award follows the plan's approval, valuation, tax, securities, and capitalization procedures.
 
-- which contributors created value;
-- what portion of profit each contributor generated;
-- and how equity is allocated among contributors.
+This preserves the deal-earned philosophy while avoiding a formal securities issuance after every customer payment.
 
-Such determinations shall be final, binding, and not subject to appeal except as required by law.
+## 8. Working caps
 
-### 12. Termination
+The following remain planning assumptions only:
 
-Upon termination of Contributor’s engagement:
+- Standard execution contributor: up to approximately 5%
+- Lead execution contributor: up to approximately 7%
+- Per-deal planning ceiling: historically modeled at up to 0.50% of fully diluted company economics
 
-- Contributor retains only equity already vested as of the termination date;
-- no further equity shall vest;
-- Contributor shall have no authority to bind the Company after termination.
+Final awards must define whether a percentage refers to issued/outstanding units, fully diluted units, voting power, profits participation, or liquidation participation above a hurdle.
 
-### 13. No voting or management rights
+## 9. Attribution evidence
 
-Any equity earned pursuant to this Agreement shall be non-controlling and non-voting unless otherwise approved in writing by the Founder. Contributor shall not have authority to approve contracts, direct operations, or make business decisions on behalf of the Company absent written authorization.
+The Plan Administrator should determine attribution in good faith under the written plan using contemporaneous evidence such as:
 
-### 14. Governing law
+- CRM opportunity records;
+- SOW role assignments;
+- project-management records;
+- approved time or delivery records;
+- architecture/design ownership;
+- deliverables;
+- customer acceptance;
+- collected revenue;
+- project cost ledger;
+- documented role changes.
 
-This Agreement shall be governed by the laws of the State of [STATE], without regard to conflict-of-law principles.
+Whenever feasible, use predefined role categories or weights instead of relying entirely on subjective after-the-fact judgment.
 
-### 15. Acceptance
+## 10. Calculation review
 
-By signing below, Contributor acknowledges that:
+The final plan should provide a controlled review process:
 
-- this is a performance-based equity arrangement;
-- no equity is guaranteed;
-- equity vests only as earned;
-- and the Company retains ultimate control over the business.
+1. company issues a calculation statement;
+2. participant receives a limited period to identify objective factual or mathematical errors;
+3. Plan Administrator reviews the evidence and issues a written determination;
+4. a defined financial calculation dispute above an approved threshold may be referred to the company's independent accountant;
+5. conflicts involving the decision maker use a disinterested decision process;
+6. applicable nonwaivable legal rights remain preserved.
 
-Company: ____________________
-By: ________________________
-Date: ______________________
+This process is intentionally different from the prior “sole, final, and not subject to appeal” language.
 
-Contributor: ________________
-Date: ______________________
+## 11. No retroactive legal grants
 
-## Companion guidance
+Unless an approved plan expressly says otherwise:
 
-This draft is intentionally conservative and founder-protective. It assumes the founder is carrying the legal, tax, and operational risk for the business. It also assumes the early contributors are being treated as time-limited, value-creating operators, not equal co-owners by default.
+- pre-plan work does not create ownership;
+- unapproved verbal promises do not create ownership;
+- an internal spreadsheet or credit ledger does not create ownership;
+- pipeline does not create ownership;
+- a customer payment alone does not create ownership.
 
-This is a working template for counsel review and should be refined in coordination with a qualified legal professional before any final execution.
+If founders want to recognize pre-formation work, do so explicitly in founder or incentive documents.
+
+## 12. Termination
+
+Termination treatment depends on the selected legal instrument.
+
+The approved plan must state:
+
+- treatment of earned but unapproved Performance Credits;
+- treatment of approved but unvested awards;
+- treatment of vested awards;
+- whether the company has a call or repurchase right;
+- good-leaver/bad-leaver rules if used;
+- pending customer work/acceptance treatment;
+- payment/buyback valuation and timing;
+- survival of confidentiality, IP, security, and customer obligations.
+
+Do not assume every departed execution contributor should remain a permanent minority owner.
+
+## 13. Actual equity award requirements
+
+If Execution Credits convert into actual LLC equity, no grant is complete until:
+
+- the Operating Agreement authorizes the class/instrument;
+- the incentive plan is approved;
+- the authorized manager/member approval is documented;
+- the recipient's worker/tax status is reviewed;
+- valuation/hurdle is documented where applicable;
+- federal securities exemption is documented;
+- applicable state securities exemption/notice is documented;
+- award agreement and Operating Agreement joinder are signed where applicable;
+- Section 83(b) workflow is addressed where applicable;
+- the unit ledger/cap table is updated;
+- the tax/accounting provider is notified.
+
+## 14. Instrument decision
+
+Counsel/CPA should compare at least:
+
+### Profits-interest / incentive-unit plan
+
+Best fit when a small number of long-term contributors should become true owners/partners and K-1/self-employment treatment is acceptable.
+
+### Phantom-equity / unit-appreciation plan
+
+Best fit when contributors should share economically in company growth without automatically becoming statutory members/partners.
+
+### Cash project bonus / profit-sharing
+
+Best fit for intermittent or shorter-term execution contributors.
+
+## 15. Governing documents
+
+The enforceable terms will ultimately live in the selected plan, award agreement, Operating Agreement, worker agreement, and company approvals—not in this document.
+
+## Recommended next action
+
+Use this file as the requirements specification for counsel when drafting the selected execution incentive plan. Preserve the performance-credit concept, but do not restore the old structure in which a contributor appears to become an equity owner automatically when a deal qualifies.

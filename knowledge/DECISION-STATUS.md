@@ -6,7 +6,7 @@ The repository is not a blank business-design exercise. Established Startup-proj
 
 | Topic | Status | Current direction | Required action |
 |---|---|---|---|
-| Company name | Open decision | Use `[COMPANY_NAME]`; friend/founders developing final name | Approve after availability and legal review |
+| Company name | Open decision | Use `[COMPANY_NAME]`; `CompuCorp` is a temporary project codename only | Approve final name after availability and legal review |
 | Business category | Established baseline | Advisory, implementation, security, automation, and managed governance | Formalize in an approved decision record |
 | Operating formula | Established baseline | Advisory first, standardized implementation second, recurring governance third | Use as the default design principle |
 | Primary platform | Established baseline | Microsoft specialization with vendor-flexible integration | Formalize; do not reopen as a generalist-vs-Microsoft debate |
@@ -18,14 +18,27 @@ The repository is not a blank business-design exercise. Established Startup-proj
 | Revenue architecture | Established baseline | Assessments/projects → implementation/remediation → recurring governance; supplemental licensing | Build financial model and commercial policies |
 | Delivery lifecycle | Established baseline | Discovery → strategy → scope → implementation → acceptance → handoff → recurring improvement | Build detailed playbooks and metrics |
 | Founder functions | Established baseline | Sales Founder: sales/relationships; Harvey: technology/security/strategy; Bernard Cole (Ben): operations | Formalize titles, authority, compensation, and legal status |
-| Ownership/equity | Open decision | No reliable approved percentages in the current record | Founder agreement and legal advice |
-| Entity/tax structure | Open professional decision | Legal and tax structure must fit founder arrangement and forecast | Obtain qualified legal and tax advice |
+| Ownership/equity | Open decision with researched redesign | Preserve founder-control/performance principles; separate true founder ownership from sales/execution incentive compensation; 51/20/20/9 remains planning model only | Founder approval plus counsel/CPA design of founder units and profits-interest, phantom, cash, or hybrid incentive plan |
+| Entity/tax structure | Proposed professional decision | ADR-0005 proposes Illinois manager-managed LLC with initial partnership tax treatment | Obtain qualified Illinois legal/tax validation and founder approval before formation |
+| Governance mechanism | Proposed professional decision | Encode control through manager-managed Operating Agreement, manager appointment/removal, voting and reserved matters rather than percentage alone | Counsel to map Illinois statutory defaults/nonwaivable rights and draft OA |
+| Delaware jurisdiction | Deferred unless trigger | No current institutional-financing reason identified to add Delaware plus Illinois qualification | Revisit if venture/institutional financing or transaction structure changes |
+| Michigan nexus | Open operational/legal trigger | Treat Michigan qualification, payroll, withholding, unemployment and workers-comp obligations as activity-based triggers | Obtain written trigger matrix before Michigan employment/regular operations develop |
+| Contributor incentive instrument | Open professional decision | Compare LLC profits-interest/incentive units with phantom equity; cash incentives favored for shorter-term/intermittent contributors | Founder selection after counsel/CPA side-by-side analysis |
+| Securities issuance process | Required before any grant | Every actual security grant needs authorized approval, federal/state exemption analysis, award documents, tax process and ledger entry | Counsel to establish plan and issuance checklist before first equity award |
+| Chicago cloud/software tax | Open professional decision | Cloud/software reseller model requires Chicago PPTLT and Illinois lease/software tax analysis before material resale | Obtain written tax memo before first material CSP/reseller transaction |
+| CTA / BOI | Current-law monitoring item | Current FinCEN rule exempts U.S.-created domestic entities/beneficial owners from BOI reporting as of 2026-08-19 | Re-check FinCEN at formation; do not use stale automatic BOI filing task |
 | Partner ecosystem | Established baseline | Microsoft, distributor/indirect CSP, specialists, referrals, and independent professionals | Formalize partner strategy and qualification |
-| Distributor model | Established baseline | Launch through an authorized distributor/indirect CSP; remain candidate-neutral | Evaluate and select provider |
+| Distributor model | Established baseline | Launch through an authorized distributor/indirect CSP; remain candidate-neutral | Evaluate provider including contract, customer-ownership and tax responsibilities |
 | Compliance model | Established baseline | Readiness, remediation, and evidence support with independent attestation | Validate partner and service scope |
+| Customer contract architecture | Developed legal baseline | Modular MSA + SOW + change order + security/DPA + managed-service/access/reseller/regulated-client modules | Counsel to draft and align with insurance before first paid customer |
+| Workforce/IP architecture | Developed legal baseline | Classification review; contractor/employee templates; IP assignment; DTSA notice; Illinois statutory requirements | Finalize before first worker performs company work |
 | Managed support boundary | Open operating decision | Governance-first with selective broader support | Define hours, inclusions, exclusions, escalation, and pricing |
 | Pricing | Developed hypotheses | Historical ranges retained in service and pricing documents | Validate through cost models, buyer interviews, and pilots |
 | Knowledge system | Established baseline | Structured use cases, solution patterns, services, skills, projects, evidence, and lessons | Operate in repository first; delay complex platform build |
 | Go-to-market | Established baseline | Founder-led warm network, focused offers, pilots, case studies, referrals | Execute and measure |
 | Internal stack | Open product-selection decision | Minimal secure stack required across identity, endpoints, CRM, delivery, documentation, finance, and secrets | Select against requirements, not familiarity alone |
-| Contributor model | Developed baseline | Founder-led, supported by qualified specialists/contractors before broad hiring | Formalize contractor, security, IP, and quality terms |
+| Contributor model | Developed baseline | Founder-led, supported by qualified specialists/contractors before broad hiring | Formalize classification, contractor, security, IP, incentive, and quality terms |
+
+## Relevant proposed decision record
+
+- `docs/decisions/ADR-0005-ENTITY-JURISDICTION-AND-INCENTIVE-ARCHITECTURE.md` — **Proposed; not approved.**
