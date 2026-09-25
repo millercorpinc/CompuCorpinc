@@ -1,8 +1,8 @@
 {
   "dataset": {
     "name": "Harvey Miller Public-Safe Resume Dataset",
-    "version": "0.3",
-    "compiled": "2026-09-08",
+    "version": "0.4",
+    "compiled": "2026-09-25",
     "purpose": [
       "founder bios",
       "resumes",
@@ -15,7 +15,8 @@
     "location": "Chicago, IL",
     "current_role": "Sr. Director, Infrastructure and Compliance",
     "public_safe": true,
-    "source_material_private": true
+    "source_material_private": true,
+    "source_baseline": "Harvey_Miller_Indeed_Resume_2026_v7.docx"
   },
   "metrics": {
     "years_it_infrastructure": "14+",
@@ -25,17 +26,20 @@
     "soc2_current_cycle_number": 7,
     "soc2_total_program_cycles_participated": 10,
     "annual_policy_cycles_signed": 5,
-    "company_population_supported": "170+",
+    "company_population_supported": "200+",
     "company_divisions_supported": 5,
     "documented_projects_programs": "90+",
     "transition_systems_reviewed": "60+",
-    "software_portfolio_scope": "seven-figure annual portfolio",
+    "software_portfolio_scope": "~$2M annual commitments across roughly 60 applications/subscriptions",
     "custom_ai_skills_agents": 17,
-    "it_policy_documents": 24
+    "it_policy_documents": 24,
+    "software_applications_subscriptions": "roughly 60",
+    "managed_service_endpoints_supported": "60+",
+    "ai_office_hours": "weekly three-hour office hours"
   },
   "career": [
     {
-      "employer": "Technology Consulting & Managed Services Firm",
+      "employer": "Burwood Group",
       "location": "Chicago, IL",
       "start": "2015-09",
       "end": null,
@@ -45,7 +49,7 @@
           "linkedin_title": "Sr. Director, IT Infrastructure & Compliance",
           "linkedin_start": "2025-01",
           "end": null,
-          "summary": "Executive owner of internal infrastructure, cloud, identity, endpoints, security, compliance, vendors, licensing, budget, and AI enablement; reports to the company president.",
+          "summary": "Enterprise technology leader for a 200+ person consulting organization, with responsibility across infrastructure, cloud, identity, endpoints, security, compliance, IT operations, enterprise applications, vendors, licensing, budget, and AI enablement.",
           "scope": [
             "Microsoft cloud ecosystem",
             "identity and privileged access",
@@ -68,11 +72,12 @@
             "security-tool consolidation",
             "regional site decommission with audit evidence",
             "recurring disaster-recovery failover and restore validation",
-            "SOC 2 scope continuity through acquisition",
+            "six completed SOC 2 Type II cycles from 2020-2025 with a seventh underway",
             "vulnerability-management maturation",
             "modern endpoint-management migration",
             "identity cleanup and enterprise-app governance",
-            "architecture documentation generated from live platform data"
+            "application ownership, renewal, dependency, and disposition documentation across roughly 60 systems for orderly technology handoff",
+            "company-wide AI Accelerator with governance, weekly three-hour office hours, reusable assets, custom agents/skills, and measurable process-improvement tracking"
           ]
         },
         {
@@ -141,7 +146,7 @@
       ]
     },
     {
-      "employer": "Regional Transportation Company",
+      "employer": "Roehl Transport",
       "location": "Wisconsin",
       "roles": [
         {
@@ -218,15 +223,29 @@
       "policy_documents": 24,
       "annual_signed_cycles": 5,
       "governance_evolution": "single-owner approval -> board co-approval -> independent validation"
+    },
+    {
+      "name": "Cisco Telepresence Managed Services Offering",
+      "role": "BUILT / PRIMARY TECHNICAL RESOURCE",
+      "period": "2015-2016",
+      "metrics": {
+        "endpoints_supported": "60+"
+      },
+      "evidence": [
+        "built service processes and operating documentation",
+        "implemented automated proactive testing",
+        "created customer reporting and recurring technical reviews",
+        "defined escalation procedures"
+      ]
     }
   ],
   "financial_impact": {
     "partner_program_licensing_optimization": {
-      "public_safe_claim": "more than $450K/year in documented retail licensing exposure offset",
+      "public_safe_claim": "~$450K/year in avoided retail licensing exposure in the planned 2026 operating position",
       "claim_status": "documented resume-level outcome; underlying SKU counts and pricing withheld"
     },
     "m365_consolidation": {
-      "public_safe_claim": "more than $250K/year and more than 80% run-rate reduction",
+      "public_safe_claim": "~$260K/year in Microsoft 365 licensing expense reduction",
       "claim_status": "documented actual reduction; underlying baseline and line items withheld"
     },
     "infrastructure_telecom": {
@@ -272,7 +291,11 @@
       "AVD",
       "Azure Site Recovery"
     ],
-    "other_cloud": ["AWS", "GCP", "Google Workspace"],
+    "other_cloud": [
+      "AWS",
+      "GCP",
+      "Google Workspace"
+    ],
     "network_security": [
       "Palo Alto",
       "Cisco Meraki",
@@ -280,7 +303,10 @@
       "Cisco Umbrella",
       "Azure Firewall",
       "Cisco ACI",
-      "Cisco UCS"
+      "Cisco UCS",
+      "Cisco CUCM",
+      "Cisco UCCX",
+      "Cisco Telepresence"
     ],
     "virtualization_storage": [
       "VMware",
@@ -296,7 +322,8 @@
       "GRC/vCISO tooling",
       "security-awareness tooling",
       "endpoint-management tooling",
-      "password management"
+      "password management",
+      "1Password"
     ],
     "business_platforms": [
       "ServiceNow",
@@ -365,7 +392,6 @@
     "Generate public-facing material from this sanitized dataset rather than from raw private source documents."
   ],
   "data_gaps": [
-    "education degree/institution/year",
     "complete certification history",
     "peak historical team size",
     "additional verified public-safe outcome metrics",
@@ -374,5 +400,37 @@
     "uptime/SLA metrics if suitable for public disclosure",
     "speaking/publication/community activity",
     "remaining two LinkedIn licenses/certifications"
-  ]
+  ],
+  "core_capabilities": [
+    "Technology Strategy",
+    "Enterprise IT Leadership",
+    "Infrastructure & Cloud",
+    "Cybersecurity & GRC",
+    "SOC 2 Type II",
+    "Risk & Change Governance",
+    "Enterprise Architecture",
+    "IT Operations",
+    "Vendor & Contract Management",
+    "Technology Budgeting",
+    "Software Asset Management",
+    "Licensing Strategy",
+    "Cost Optimization",
+    "ServiceNow / ITSM",
+    "Dynamics 365",
+    "Power Platform",
+    "AI Strategy & Governance",
+    "Program Management",
+    "Executive Communication",
+    "Cross-Functional Leadership",
+    "Managed Services / MSP",
+    "Client Advisory"
+  ],
+  "education": {
+    "degree": "Bachelor of Science (B.S.)",
+    "field": "Computer Network & Systems Administration",
+    "institution": "Michigan Technological University",
+    "location": "Houghton, MI",
+    "start": 2008,
+    "end": 2012
+  }
 }
