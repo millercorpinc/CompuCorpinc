@@ -22,8 +22,6 @@
     "years_it_infrastructure": "14+",
     "years_current_company": 11,
     "years_formal_leadership": "9+",
-    "soc2_cycles_completed_under_authority": 6,
-    "soc2_current_cycle_number": 7,
     "soc2_total_program_cycles_participated": 10,
     "annual_policy_cycles_signed": 5,
     "company_population_supported": "200+",
@@ -35,7 +33,8 @@
     "it_policy_documents": 24,
     "software_applications_subscriptions": "roughly 60",
     "managed_service_endpoints_supported": "60+",
-    "ai_office_hours": "weekly three-hour office hours"
+    "ai_office_hours": "weekly three-hour office hours",
+    "soc2_program_leadership_years": 7
   },
   "career": [
     {
@@ -72,7 +71,7 @@
             "security-tool consolidation",
             "regional site decommission with audit evidence",
             "recurring disaster-recovery failover and restore validation",
-            "six completed SOC 2 Type II cycles from 2020-2025 with a seventh underway",
+            "7 years leading the SOC 2 Type II program",
             "vulnerability-management maturation",
             "modern endpoint-management migration",
             "identity cleanup and enterprise-app governance",
@@ -212,9 +211,8 @@
       "name": "SOC 2 Type II Program",
       "role": "INHERITED 2020 -> OWNED",
       "authority_start": "2020-02",
-      "cycles_completed_under_authority": 6,
-      "current_cycle": 7,
-      "documented_lapses": 0
+      "documented_lapses": 0,
+      "program_leadership_years": 7
     },
     {
       "name": "Security & Compliance Policy Library",
