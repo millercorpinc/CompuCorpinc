@@ -4,7 +4,7 @@
 
 - **Status:** implemented public website content
 - **Owner:** Harvey Miller
-- **Source:** `founders/HARVEY-MILLER-RESUME-DATASET.json`, `founders/README.md`, and explicit founder direction on September 24, 2026
+- **Source:** `Harvey_Miller_Indeed_Resume_2026_v7.docx`, `founders/HARVEY-MILLER-RESUME-DATASET.json`, `founders/README.md`, and explicit founder direction through September 25, 2026
 - **Public disclosure:** public-safe, rounded, and intentionally excludes client names, confidential technical detail, private contact information, and non-public commercial records
 
 ## Purpose
@@ -24,7 +24,7 @@ Both views share the existing site design system and link directly to each other
 - Do not present acquisition transition work as a general M&A specialty.
 - Keep managed-services experience visible as part of the founder's operating foundation.
 - Do not add private email, phone, client names, internal identifiers, exact vendor pricing, or security details.
-- Update both pages when a material public founder fact changes.
+- Treat the newest approved Indeed résumé as the active career baseline, then reconcile the sanitized dataset and both pages when a material public founder fact changes.
 
 ## Validation
 
